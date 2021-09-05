@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "key": "tag",
+    "data": {
+        "items": [
+            {
+                "tag_id": "c752d2e7-c84c-4573-8ac5-b98793dba3ce",
+                "name": "Airtag",
+                "id": "c752d2e7-c84c-4573-8ac5-b98793dba3ce"
+            }
+        ]
+    }
+}

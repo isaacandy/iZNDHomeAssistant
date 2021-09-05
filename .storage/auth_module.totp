@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "key": "auth_module.totp",
+    "data": {
+        "users": {
+            "11fb7d7d9bf94539ae2913f8d067bb80": "MYYEFFNTTNKIQ2OJ"
+        }
+    }
+}

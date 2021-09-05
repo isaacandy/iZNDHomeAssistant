@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "key": "zone",
+    "data": {
+        "items": [
+            {
+                "name": "BIG Outlet",
+                "icon": "mdi:office-building",
+                "latitude": 3.1005974,
+                "longitude": 101.4439439,
+                "passive": false,
+                "radius": 268.251581866237,
+                "id": "big_outlet"
+            },
+            {
+                "name": "Kristine Scandal Condo",
+                "icon": "mdi:map-marker",
+                "latitude": 3.1319458902295225,
+                "longitude": 101.59778594970705,
+                "passive": true,
+                "radius": 100.0,
+                "id": "whwre"
+            },
+            {
+                "name": "B8 Place",
+                "icon": "mdi:map-marker",
+                "latitude": 3.078940417620427,
+                "longitude": 101.6194785666667,
+                "passive": true,
+                "radius": 100.0,
+                "id": "b8_place"
+            }
+        ]
+    }
+}

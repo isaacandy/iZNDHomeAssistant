@@ -1,0 +1,37 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Prof. Dr. Isaac Andy",
+                "user_id": "11fb7d7d9bf94539ae2913f8d067bb80",
+                "device_trackers": [
+                    "device_tracker.prof_dr_isaacs_watch_series_6iphon",
+                    "device_tracker.prof_dr_isaac_iphone_12_pro",
+                    "device_tracker.isaacs_ipad_2"
+                ],
+                "id": "prof_dr_isaac_andy",
+                "picture": "/api/image/serve/2fb54c480db1fba3621d8d3e64c504be/512x512"
+            },
+            {
+                "name": "Kristine Ng",
+                "device_trackers": [
+                    "device_tracker.redmi_note_9_pro"
+                ],
+                "user_id": "a06bca10bd1f4afcbd92a10c70dd5af9",
+                "picture": "/api/image/serve/22f752b0abecb8439e84ded556f6c965/512x512",
+                "id": "kristine_ng"
+            },
+            {
+                "name": "Nga",
+                "device_trackers": [
+                    "device_tracker.v2043"
+                ],
+                "user_id": null,
+                "picture": null,
+                "id": "nga"
+            }
+        ]
+    }
+}

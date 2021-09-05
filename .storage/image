@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "key": "image",
+    "data": {
+        "items": [
+            {
+                "id": "2fb54c480db1fba3621d8d3e64c504be",
+                "filesize": 42716,
+                "content_type": "image/jpeg",
+                "name": "39335FC8-5DDB-4871-8E04-7E8575E061FD.jpeg",
+                "uploaded_at": "2021-06-21T23:21:58.409123+00:00"
+            },
+            {
+                "id": "0bb230f7d531fd132c7a13e6c1d7761b",
+                "filesize": 200203,
+                "content_type": "image/jpeg",
+                "name": "Kristine ng.png",
+                "uploaded_at": "2021-07-02T06:45:52.171652+00:00"
+            },
+            {
+                "id": "e99243744f57ea0d6675ea9970f56f22",
+                "filesize": 93865,
+                "content_type": "image/jpeg",
+                "name": "beauty_20201016184106.jpg",
+                "uploaded_at": "2021-07-08T15:22:57.163953+00:00"
+            },
+            {
+                "id": "06d07987eb27794a44190a3e686f7464",
+                "filesize": 99871,
+                "content_type": "image/jpeg",
+                "name": "28A2DD47-3AB8-4CBA-A49E-CCED48218BA9.jpeg",
+                "uploaded_at": "2021-07-09T05:49:49.986335+00:00"
+            },
+            {
+                "id": "7dc05d3c6db5c6b1db2c4df4cc49c36b",
+                "filesize": 38254,
+                "content_type": "image/jpeg",
+                "name": "82772209-5866-4CEA-8FD4-8A53114066B3.jpeg",
+                "uploaded_at": "2021-07-12T13:34:47.171248+00:00"
+            },
+            {
+                "id": "7508027a845883f042a819092ae56702",
+                "filesize": 2044661,
+                "content_type": "image/jpeg",
+                "name": "95441C57-2578-442B-BF93-7B2B6A31C6AD.jpeg",
+                "uploaded_at": "2021-07-15T18:17:54.326226+00:00"
+            },
+            {
+                "id": "1170aeb4c56ba0e9920592da5bdad6f8",
+                "filesize": 403877,
+                "content_type": "image/jpeg",
+                "name": "8A231293-D9D7-4FC1-9A08-867615FF888C.jpeg",
+                "uploaded_at": "2021-07-17T23:45:28.989411+00:00"
+            },
+            {
+                "id": "22f752b0abecb8439e84ded556f6c965",
+                "filesize": 11003,
+                "content_type": "image/jpeg",
+                "name": "E159F3E5-C412-48D1-BCFE-8072EE003DB7.jpeg",
+                "uploaded_at": "2021-07-17T23:46:20.665151+00:00"
+            }
+        ]
+    }
+}

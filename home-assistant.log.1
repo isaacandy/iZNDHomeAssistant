@@ -1,0 +1,80 @@
+2021-09-05 18:10:30 ERROR (SyncWorker_0) [homeassistant.util.yaml.loader] mapping values are not allowed here
+  in "/home/homeassistant/.homeassistant/configuration.yaml", line 211, column 9
+2021-09-05 18:10:30 ERROR (MainThread) [homeassistant.bootstrap] Failed to parse configuration.yaml: mapping values are not allowed here
+  in "/home/homeassistant/.homeassistant/configuration.yaml", line 211, column 9. Activating safe mode
+2021-09-05 18:10:39 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [547282131696] Received invalid command: mobile_app/push_notification_channel
+2021-09-05 18:10:39 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [547282131696] Received invalid command: mobile_app/push_notification_channel
+2021-09-05 18:21:36 ERROR (MainThread) [homeassistant.config] Invalid config for [automation]: [automation] is an invalid option for [automation]. Check: automation->automation. (See /home/homeassistant/.homeassistant/configuration.yaml, line 141). 
+2021-09-05 18:21:37 ERROR (MainThread) [homeassistant.config] Invalid config for [script]: expected a dictionary. Got OrderedDict([('default_config', {}), ('cloud', {'mode': 'production'}), ('mobile_app', {}), ('my', {}), ('stream', {}), ('zeroconf', {'ipv6': True}), ('network', {}), ('dhcp', {}), ('ssdp', {}), ('updater', {}), ('recorder', OrderedDict([('include', OrderedDict([('domains', ['sensor', 'switch', 'media_player']), ('entities', []), ('entity_globs', [])])), ('exclude', OrderedDict([('entities', ['sensor.last_boot', 'sensor.date']), ('entity_globs', ['sensor.weather_*']), ('domains', [])])), ('au.... (See /home/homeassistant/.homeassistant/configuration.yaml, line 142). 
+2021-09-05 18:21:37 ERROR (MainThread) [homeassistant.components.homeassistant] The system cannot restart because the configuration is not valid: Component error: favicon - Integration 'favicon' not found.
+Component error: media-source - Integration 'media-source' not found.
+Component error: sonoff - Integration 'sonoff' not found.
+Component error: auto_backup - Integration 'auto_backup' not found.
+Platform error image_processing.dlib_face_detect - /srv/homeassistant/lib/python3.9/site-packages/_dlib_pybind11.cpython-39-aarch64-linux-gnu.so: undefined symbol: png_do_expand_palette_rgb8_neon
+Platform error image_processing._AN_IMAGE_PROCESSING_PLATFORM_ - Integration '_AN_IMAGE_PROCESSING_PLATFORM_' not found.
+Invalid config for [panel_iframe]: expected dictionary for dictionary value @ data['panel_iframe']. Got [OrderedDict([('izndgps', None), ('title', 'iZND GPS Fleet'), ('icon', 'mdi:car-connected'), ('url', 'http://iznd-node02:8082')]), OrderedDict([('osmc-kodi', None), ('title', 'iZND Kodi -OSMC'), ('icon', 'hacs:kodi'), ('url', 'http://osmc-kodi:8080')])]. (See /home/homeassistant/.homeassistant/configuration.yaml, line 170). 
+Invalid config for [media_player.group]: Entity ID media_player.osmc-kodi is an invalid entity ID for dictionary value @ data['entities']. Got ['media_player.guest_display', 'media_player.hall_speaker', 'media_player.spotify_dr_isaac_govind_andy', 'media_player.playstation4', 'media_player.osmc-kodi']. (See ?, line ?). 
+2021-09-05 18:21:37 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [547281267440] The system cannot restart because the configuration is not valid: Component error: favicon - Integration 'favicon' not found.
+Component error: media-source - Integration 'media-source' not found.
+Component error: sonoff - Integration 'sonoff' not found.
+Component error: auto_backup - Integration 'auto_backup' not found.
+Platform error image_processing.dlib_face_detect - /srv/homeassistant/lib/python3.9/site-packages/_dlib_pybind11.cpython-39-aarch64-linux-gnu.so: undefined symbol: png_do_expand_palette_rgb8_neon
+Platform error image_processing._AN_IMAGE_PROCESSING_PLATFORM_ - Integration '_AN_IMAGE_PROCESSING_PLATFORM_' not found.
+Invalid config for [panel_iframe]: expected dictionary for dictionary value @ data['panel_iframe']. Got [OrderedDict([('izndgps', None), ('title', 'iZND GPS Fleet'), ('icon', 'mdi:car-connected'), ('url', 'http://iznd-node02:8082')]), OrderedDict([('osmc-kodi', None), ('title', 'iZND Kodi -OSMC'), ('icon', 'hacs:kodi'), ('url', 'http://osmc-kodi:8080')])]. (See /home/homeassistant/.homeassistant/configuration.yaml, line 170). 
+Invalid config for [media_player.group]: Entity ID media_player.osmc-kodi is an invalid entity ID for dictionary value @ data['entities']. Got ['media_player.guest_display', 'media_player.hall_speaker', 'media_player.spotify_dr_isaac_govind_andy', 'media_player.playstation4', 'media_player.osmc-kodi']. (See ?, line ?). 
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/components/websocket_api/commands.py", line 185, in handle_call_service
+    await hass.services.async_call(
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/core.py", line 1492, in async_call
+    task.result()
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/core.py", line 1527, in _execute_service
+    await handler.job.target(service_call)
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/helpers/service.py", line 728, in admin_handler
+    await result
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/components/homeassistant/__init__.py", line 171, in async_handle_core_service
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: The system cannot restart because the configuration is not valid: Component error: favicon - Integration 'favicon' not found.
+Component error: media-source - Integration 'media-source' not found.
+Component error: sonoff - Integration 'sonoff' not found.
+Component error: auto_backup - Integration 'auto_backup' not found.
+Platform error image_processing.dlib_face_detect - /srv/homeassistant/lib/python3.9/site-packages/_dlib_pybind11.cpython-39-aarch64-linux-gnu.so: undefined symbol: png_do_expand_palette_rgb8_neon
+Platform error image_processing._AN_IMAGE_PROCESSING_PLATFORM_ - Integration '_AN_IMAGE_PROCESSING_PLATFORM_' not found.
+Invalid config for [panel_iframe]: expected dictionary for dictionary value @ data['panel_iframe']. Got [OrderedDict([('izndgps', None), ('title', 'iZND GPS Fleet'), ('icon', 'mdi:car-connected'), ('url', 'http://iznd-node02:8082')]), OrderedDict([('osmc-kodi', None), ('title', 'iZND Kodi -OSMC'), ('icon', 'hacs:kodi'), ('url', 'http://osmc-kodi:8080')])]. (See /home/homeassistant/.homeassistant/configuration.yaml, line 170). 
+Invalid config for [media_player.group]: Entity ID media_player.osmc-kodi is an invalid entity ID for dictionary value @ data['entities']. Got ['media_player.guest_display', 'media_player.hall_speaker', 'media_player.spotify_dr_isaac_govind_andy', 'media_player.playstation4', 'media_player.osmc-kodi']. (See ?, line ?). 
+2021-09-05 18:21:56 ERROR (MainThread) [homeassistant.config] Invalid config for [automation]: [automation] is an invalid option for [automation]. Check: automation->automation. (See /home/homeassistant/.homeassistant/configuration.yaml, line 141). 
+2021-09-05 18:21:56 ERROR (MainThread) [homeassistant.config] Invalid config for [script]: expected a dictionary. Got OrderedDict([('default_config', {}), ('cloud', {'mode': 'production'}), ('mobile_app', {}), ('my', {}), ('stream', {}), ('zeroconf', {'ipv6': True}), ('network', {}), ('dhcp', {}), ('ssdp', {}), ('updater', {}), ('recorder', OrderedDict([('include', OrderedDict([('domains', ['sensor', 'switch', 'media_player']), ('entities', []), ('entity_globs', [])])), ('exclude', OrderedDict([('entities', ['sensor.last_boot', 'sensor.date']), ('entity_globs', ['sensor.weather_*']), ('domains', [])])), ('au.... (See /home/homeassistant/.homeassistant/configuration.yaml, line 142). 
+2021-09-05 18:21:56 ERROR (MainThread) [homeassistant.components.homeassistant] The system cannot restart because the configuration is not valid: Component error: favicon - Integration 'favicon' not found.
+Component error: media-source - Integration 'media-source' not found.
+Component error: sonoff - Integration 'sonoff' not found.
+Component error: auto_backup - Integration 'auto_backup' not found.
+Platform error image_processing.dlib_face_detect - /srv/homeassistant/lib/python3.9/site-packages/_dlib_pybind11.cpython-39-aarch64-linux-gnu.so: undefined symbol: png_do_expand_palette_rgb8_neon
+Platform error image_processing._AN_IMAGE_PROCESSING_PLATFORM_ - Integration '_AN_IMAGE_PROCESSING_PLATFORM_' not found.
+Invalid config for [panel_iframe]: expected dictionary for dictionary value @ data['panel_iframe']. Got [OrderedDict([('izndgps', None), ('title', 'iZND GPS Fleet'), ('icon', 'mdi:car-connected'), ('url', 'http://iznd-node02:8082')]), OrderedDict([('osmc-kodi', None), ('title', 'iZND Kodi -OSMC'), ('icon', 'hacs:kodi'), ('url', 'http://osmc-kodi:8080')])]. (See /home/homeassistant/.homeassistant/configuration.yaml, line 170). 
+Invalid config for [media_player.group]: Entity ID media_player.osmc-kodi is an invalid entity ID for dictionary value @ data['entities']. Got ['media_player.guest_display', 'media_player.hall_speaker', 'media_player.spotify_dr_isaac_govind_andy', 'media_player.playstation4', 'media_player.osmc-kodi']. (See ?, line ?). 
+2021-09-05 18:21:56 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [547281267440] The system cannot restart because the configuration is not valid: Component error: favicon - Integration 'favicon' not found.
+Component error: media-source - Integration 'media-source' not found.
+Component error: sonoff - Integration 'sonoff' not found.
+Component error: auto_backup - Integration 'auto_backup' not found.
+Platform error image_processing.dlib_face_detect - /srv/homeassistant/lib/python3.9/site-packages/_dlib_pybind11.cpython-39-aarch64-linux-gnu.so: undefined symbol: png_do_expand_palette_rgb8_neon
+Platform error image_processing._AN_IMAGE_PROCESSING_PLATFORM_ - Integration '_AN_IMAGE_PROCESSING_PLATFORM_' not found.
+Invalid config for [panel_iframe]: expected dictionary for dictionary value @ data['panel_iframe']. Got [OrderedDict([('izndgps', None), ('title', 'iZND GPS Fleet'), ('icon', 'mdi:car-connected'), ('url', 'http://iznd-node02:8082')]), OrderedDict([('osmc-kodi', None), ('title', 'iZND Kodi -OSMC'), ('icon', 'hacs:kodi'), ('url', 'http://osmc-kodi:8080')])]. (See /home/homeassistant/.homeassistant/configuration.yaml, line 170). 
+Invalid config for [media_player.group]: Entity ID media_player.osmc-kodi is an invalid entity ID for dictionary value @ data['entities']. Got ['media_player.guest_display', 'media_player.hall_speaker', 'media_player.spotify_dr_isaac_govind_andy', 'media_player.playstation4', 'media_player.osmc-kodi']. (See ?, line ?). 
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/components/websocket_api/commands.py", line 185, in handle_call_service
+    await hass.services.async_call(
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/core.py", line 1492, in async_call
+    task.result()
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/core.py", line 1527, in _execute_service
+    await handler.job.target(service_call)
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/helpers/service.py", line 728, in admin_handler
+    await result
+  File "/srv/homeassistant/lib/python3.9/site-packages/homeassistant/components/homeassistant/__init__.py", line 171, in async_handle_core_service
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: The system cannot restart because the configuration is not valid: Component error: favicon - Integration 'favicon' not found.
+Component error: media-source - Integration 'media-source' not found.
+Component error: sonoff - Integration 'sonoff' not found.
+Component error: auto_backup - Integration 'auto_backup' not found.
+Platform error image_processing.dlib_face_detect - /srv/homeassistant/lib/python3.9/site-packages/_dlib_pybind11.cpython-39-aarch64-linux-gnu.so: undefined symbol: png_do_expand_palette_rgb8_neon
+Platform error image_processing._AN_IMAGE_PROCESSING_PLATFORM_ - Integration '_AN_IMAGE_PROCESSING_PLATFORM_' not found.
+Invalid config for [panel_iframe]: expected dictionary for dictionary value @ data['panel_iframe']. Got [OrderedDict([('izndgps', None), ('title', 'iZND GPS Fleet'), ('icon', 'mdi:car-connected'), ('url', 'http://iznd-node02:8082')]), OrderedDict([('osmc-kodi', None), ('title', 'iZND Kodi -OSMC'), ('icon', 'hacs:kodi'), ('url', 'http://osmc-kodi:8080')])]. (See /home/homeassistant/.homeassistant/configuration.yaml, line 170). 
+Invalid config for [media_player.group]: Entity ID media_player.osmc-kodi is an invalid entity ID for dictionary value @ data['entities']. Got ['media_player.guest_display', 'media_player.hall_speaker', 'media_player.spotify_dr_isaac_govind_andy', 'media_player.playstation4', 'media_player.osmc-kodi']. (See ?, line ?). 

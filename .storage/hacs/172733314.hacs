@@ -1,0 +1,62 @@
+{
+    "version": "6",
+    "key": "hacs/172733314.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@ludeeus"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": true,
+        "default_branch": "main",
+        "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
+        "domain": "hacs",
+        "domains": [],
+        "downloads": 6373,
+        "etag_repository": "W/\"314067ef476eb897beabe3af2a13d7fe981484f6d46b1ad31cd228a375cc367a\"",
+        "file_name": "",
+        "filename": "hacs.zip",
+        "first_install": false,
+        "fork": false,
+        "full_name": "hacs/integration",
+        "hacs": "0.19.0",
+        "hide": false,
+        "hide_default_branch": true,
+        "homeassistant": "2021.2.0",
+        "id": "172733314",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": null,
+        "installed_version": "1.13.2",
+        "open_issues": 3,
+        "last_commit": "189f72e",
+        "last_version": "1.14.1",
+        "last_updated": "2021-08-25T22:28:56Z",
+        "manifest_name": "HACS",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-08-25T22:28:56",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "1.14.1",
+            "1.14.0",
+            "1.13.2"
+        ],
+        "selected_tag": null,
+        "show_beta": true,
+        "stargazers_count": 1849,
+        "topics": [
+            "community",
+            "hacktoberfest",
+            "hacs",
+            "home-assistant",
+            "integration",
+            "package-manager",
+            "python"
+        ],
+        "zip_release": true
+    }
+}

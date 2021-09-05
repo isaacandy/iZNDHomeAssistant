@@ -1,0 +1,59 @@
+{
+    "version": "6",
+    "key": "hacs/222118751.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@AlexxIT"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": false,
+        "default_branch": "master",
+        "description": "Control Sonoff Devices with eWeLink (original) firmware over LAN and/or Cloud from Home Assistant",
+        "domain": "sonoff",
+        "domains": [],
+        "downloads": 0,
+        "etag_repository": "W/\"8365eb8ae6c65ed20ae36faff5780ba35210d841b3e33ff04ba24f5c1d1e1083\"",
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "AlexxIT/SonoffLAN",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "222118751",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "11c6a74",
+        "installed_version": "v2.4.6",
+        "open_issues": 96,
+        "last_commit": "7fb7eb6",
+        "last_version": "v2.4.6",
+        "last_updated": "2021-08-16T18:14:59Z",
+        "manifest_name": "Sonoff",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-08-16T18:14:59",
+        "releases": true,
+        "render_readme": true,
+        "published_tags": [
+            "v2.4.6",
+            "v2.4.3",
+            "v2.4.2"
+        ],
+        "selected_tag": null,
+        "show_beta": true,
+        "stargazers_count": 1296,
+        "topics": [
+            "ewelink",
+            "hacs",
+            "home-assistant",
+            "sonoff"
+        ],
+        "zip_release": false
+    }
+}

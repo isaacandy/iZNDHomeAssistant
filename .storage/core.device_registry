@@ -1,0 +1,1348 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "c1b3f3ea344a54ff6d8f69de72783a63"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "0180e1d0feceae46"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-N950F",
+                "name": "Dr Isaac Samsung Note",
+                "sw_version": "28",
+                "entry_type": null,
+                "id": "29688a6fd472de8ce6fed2bed381338b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "01eb858f18ba8e0bb8ed695ca931f62e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "22de84c59af9f242863708226ff45c58"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Guest speaker",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "983f3dde898f9c34168a596e10b42d8f",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": "hall speaker",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "01eb858f18ba8e0bb8ed695ca931f62e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "ee500b420cc1cdb41a798dc2ccf08f77"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Nest Hub",
+                "name": "Bed Room Display",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9bf7aefdf11c792b007b0db7f51dd416",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": "Dining Display",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d905968fc22aabb90e94087169f70b6c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "9220B516-10ED-4CEC-97A8-4B9B939AEA74"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone13,2",
+                "name": "Prof Dr Isaac \uf8ff iPhone 12 Pro",
+                "sw_version": "15.0",
+                "entry_type": null,
+                "id": "3f8f7d375d10ad1c1b8e90c0bb1a7a74",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "929bf418bf3a003834718d573d456dee"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "4141f270c9c3d20d"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Redmi Note 9 Pro",
+                "name": "Redmi Note 9 Pro",
+                "sw_version": "29",
+                "entry_type": null,
+                "id": "5ac8c6358e0224f476adfc9e6f97a336",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "694c10993845516df394321483515824"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:00e0fc37-2525-2828-2500-B8E3B1940785"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:00e0fc37-2525-2828-2500-B8E3B1940785"
+                    ]
+                ],
+                "manufacturer": "Huawei",
+                "model": "Huawei EchoLife Series",
+                "name": "Huawei IGD",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "866afc3227cccebd4f268dcb94c6d097",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "dc7cd6a0ee93221bb05e1aebcd80a344"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "spotify",
+                        "12164520480"
+                    ]
+                ],
+                "manufacturer": "Spotify AB",
+                "model": "Spotify premium",
+                "name": "Spotify Dr. Isaac Govind Andy",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "926e46456e2a29ddc35c46e23a107d21",
+                "via_device_id": null,
+                "area_id": "iznd",
+                "name_by_user": "Spotify",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "cd42462568ed398759a80a3850ebc4b3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "0dfa71588c2533d2"
+                    ]
+                ],
+                "manufacturer": "vivo",
+                "model": "V2043",
+                "name": "VIVO",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "9efa3c5ce32b6d36b86779396afb2692",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.31TqZZVsioP0XHKa"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "Turn on PS4",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "e51b9c9a24ada484a6f1ecfc4f3653eb",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.mUR5vjABzZfvAFE0"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "If Schedule:6:00 AM Sun.,Tues.,Thurs.,Sat.,\\\"Air Cond\\\" OFF",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b45ca5a07c64cab67dc19651d03e72ff",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.lsFx5JQlWFX26RGu"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "If Damansara Jalan Lapangan Terbang Subang Sunset and Sunrise : 30 minutes before sunrise,",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4beab4ae3ace19888cfa980cf915312e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.SkMCAVvohMngUWc4"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "\\\"Robot vacuum\\\" ",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0e117be1bd32b78ce579dff34bfaef0e",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": "Start Robot Vacuum",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.AyP7HXMrY0fsKCHp"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "Stop \u201cRobot Vacuum\u201d",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "3e21f9bef39ce4805104562db7985b08",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.AAqqQTAJhHGkmAdS"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "Away mode  ",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "3ccf9fcfb48f781475040e61dbacabeb",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.eb2471f0d4f10bcc6c9exx"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Reon Light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f4bf92adb4cbd1c891f17ed2f494f3b2",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "60c2ad8f3efb7acb92f645ba70e31ab8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "37:99:79:ca:ee:80"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "60c2ad8f3efb7acb92f645ba70e31ab8",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Bridge",
+                "name": "HASS Bridge:21064",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "b49cbced0a7ffa45a1f1553d66f70613",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "30b59703dcaf48775a0da19c592656bf"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "59:ab:bc:31:4a:63"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "30b59703dcaf48775a0da19c592656bf",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Bridge",
+                "name": "Kitchen view:21066",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "7609b9516d724c8550fa2f587e0dadf3",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.3Q4dPrx9JAdIZjbV"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "Bedroom Aircond",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "947ac5c41b90c9ba6a42696fe1a15c79",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.ZHTUEo6Gji9jx2w3"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "scene",
+                "name": "Bedroom TV",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "1f1ad8ef4eac1bf604669328173e2af3",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "896fff8441e9eeadc3f23c1e5a133bb8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "ipp",
+                        "00000001-0000-1000-8000-94e97944579e"
+                    ]
+                ],
+                "manufacturer": "Test",
+                "model": "Printer",
+                "name": "FUJI XEROX DocuPrint CP116/119 w",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ef35342c2f1bf39d2e6d00f28fc98be6",
+                "via_device_id": null,
+                "area_id": "guest",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "01eb858f18ba8e0bb8ed695ca931f62e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "898f9738d9304db4a3cf40e230bf60b9"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast Ultra",
+                "name": "MINIX",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9aab4950627828529f14bce717403b1e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "b00246ea02608f7b983a91dbbe60c0b2"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "ps4",
+                        "2CCC44146FAA"
+                    ]
+                ],
+                "manufacturer": "Sony Interactive Entertainment Inc.",
+                "model": "PlayStation 4",
+                "name": "iZND PS4-101",
+                "sw_version": "8.52",
+                "entry_type": null,
+                "id": "1b74212d605d26e05ea96b4ac78f13ea",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.ebfacc6af068eeaf8djujm"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Cozy Light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "e31acd650efd388deddbca01dbd88c83",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.ebac77d25e15dff015gdvh"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Guest Power Outlet",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8c4e18d63e0efae9a90cce7dca97b2b8",
+                "via_device_id": null,
+                "area_id": "guest",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1399d3a7ff8de24fc5c0b417fc55846f"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "28:ad:3e:06:27:17"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "onvif",
+                        "28:AD:3E:06:27:17"
+                    ]
+                ],
+                "manufacturer": "Vstarcam",
+                "model": "Hi3518eV100",
+                "name": "Vstarcam",
+                "sw_version": "2.4",
+                "entry_type": null,
+                "id": "7fbb88551209e837c2726b414f114a1d",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e85f8459075f6d32eaea4e420535101a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "QkKnPAD4ajF9MOhOBQaQLxGQcJZeeOqEi7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "Apple Watch Series 6 (GPS + Cellular)",
+                "name": "Prof. Dr. Isaac\u2019s \uf8ff\u00a0Watch Series 6",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4bd46aa19c3b3ab14f1cf7a09ecf7053",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e85f8459075f6d32eaea4e420535101a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "/UNm01d39xZCPSHSiG3xuelt/IYT5ktXi7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 12",
+                "name": "Prof Dr Isaac \uf8ff iPhone 12 Pro",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ac107f62927e92e705ed1e690a293b75",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e85f8459075f6d32eaea4e420535101a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "PhDel9ZniFowDU90Yjac2Qaiq2RNvPNbs2zmKyVJ8UnFoJa4eYWbqg=="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "MacBook Pro 13\"",
+                "name": "Prof Dr Isaac's \uf8ff MacBook Pro",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "46d657ee91a6a12cf6458d3e510addff",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e85f8459075f6d32eaea4e420535101a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "z542304+HQYcMMOETxBaXPog9oqDJhGbdgzUcMVJkik7xgtoyE1cucHOuM/BemX6t+AOE9YlxRbdY6Nb4ELBSutRXv/32kyNxs0U0/D7XOjcV44FCxMappJhusCbFgaM"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad Air 2",
+                "name": "isaac\u2019s iPad",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b231c38e80f2741eb6f2f8099b4de850",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e85f8459075f6d32eaea4e420535101a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "h+4uIc+bOK38DxH6h9x7J9Qtn3MR+aJ2r4EgQ20LZLDH/TpwX7vxZW/2P2fbB1y4bSopcAEvxdrdY6Nb4ELBSqWf9kiL1p4Yvbb4Fxn5rJ7cV44FCxMappJhusCbFgaM"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad 2",
+                "name": "Bruno iPad",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ee023d135f3b9bcf01a14616e6e8e208",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.884343309c9c1f83ca5a_1"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "TV Light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "7a387a4cf3df88d778bafc02f97193c0",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.884343309c9c1f83ca5a_2"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Fan",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "035cc3d4c93cf4690bf7b96049ecfabf",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.884343309c9c1f83ca5a_3"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Dining Light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ce8321b0abdbf5605d2e3f4766ba2ae7",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e85f8459075f6d32eaea4e420535101a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "+hT5w60Dy6lM6lH/C5Esi0jOA2wVn2Ffqs6R5mgzBrASgrKdOJQNB+HYVNSUzmWV"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Dr Isaac Andy \uf8ff X",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "06864aba69fc458bf08624cceeda53fa",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.884343309c9c1f83ca55_1"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Fan",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "cdca226c940c109e1d94aa582aaa0aca",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.884343309c9c1f83ca55_2"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "62ffd739c9ccdc53e07789374d07d426",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.884343309c9c1f83ca55_3"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Switch 3",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ad71454a77b72167252083ea07d4d532",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "889493304ea15c4d08291a33fdca23d8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "kodi",
+                        "ab5074aa-68ab-489e-9d26-d1a2a3433d35"
+                    ]
+                ],
+                "manufacturer": "Kodi",
+                "model": null,
+                "name": "osmc-kodi",
+                "sw_version": "19.1",
+                "entry_type": null,
+                "id": "1c5662f63e3391d4928b6b9ea24c29c7",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d09a16fcca5d473258e75d682c956851"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "78:0f:77:d8:f5:13"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "broadlink",
+                        "780f77d8f513"
+                    ]
+                ],
+                "manufacturer": "Broadlink",
+                "model": "RM mini 3",
+                "name": "Broadlink Hall RM Mini 3",
+                "sw_version": 57,
+                "entry_type": null,
+                "id": "a0a7a995768fa55f12ebe38f7079546a",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "f21205a88b04829e934a0e64723609f2"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a0:43:b0:18:a8:ad"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "broadlink",
+                        "a043b018a8ad"
+                    ]
+                ],
+                "manufacturer": "Broadlink",
+                "model": "RM4C mini",
+                "name": "Guest Remote",
+                "sw_version": 52078,
+                "entry_type": null,
+                "id": "aaea4413b4d834cbefcbab02c97147e6",
+                "via_device_id": null,
+                "area_id": "guest",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.eb49088b781f9e8ce78w7d"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "SMART socket 3",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c8804ddde5b8b5e49e560cf9efd27a5c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "46082347fd197242a37d7a234fd95431"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "nut",
+                        "American Power Conversion_Back-UPS XS 1400U _4B1827P13114  "
+                    ]
+                ],
+                "manufacturer": "American Power Conversion",
+                "model": "Back-UPS XS 1400U ",
+                "name": "Iznd-Ups",
+                "sw_version": "926.T2 .I",
+                "entry_type": null,
+                "id": "9e83fef1890df81892ef28084b8a5525",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4660473b1d293c5b0ccacf94a058b9cc"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "co2signal",
+                        "4660473b1d293c5b0ccacf94a058b9cc"
+                    ]
+                ],
+                "manufacturer": "Tmrow.com",
+                "model": null,
+                "name": "CO2 signal",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "81273a8bae7fc1bd4f43675aa0455f21",
+                "via_device_id": null,
+                "area_id": "iznd",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "2aaffbc926e58f2fa801677c2a27dfdb"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "48EA6102-9FF1-4F8C-A8DD-0D8014B0A5F4"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad5,3",
+                "name": "isaac\u2019s iPad",
+                "sw_version": "14.5.1",
+                "entry_type": null,
+                "id": "3eb5ba0bf7bbd8d747e2b8aa7a645cbf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "kodi",
+                        "ee2a6179782bd057fe1852f3fa183eb0"
+                    ]
+                ],
+                "id": "26c025d302721e6684fefe6618b0de1c",
+                "orphaned_timestamp": 1628768162.6353946
+            },
+            {
+                "config_entries": [
+                    "7b60dff21dd149161ac3ccd1676880d3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.eb26992f7143af3729q5re"
+                    ]
+                ],
+                "id": "85db9a4b65e791c23e1a0931d0e1600b",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "5208e2ce-fd87c7ef"
+                    ]
+                ],
+                "id": "3d1d6a2d14c9c5ada89cfd75a7034b8f",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "e6001136-5832ac17"
+                    ]
+                ],
+                "id": "970d95270d4dc94b0503d8fc13692815",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b31fd009-c85fddcf"
+                    ]
+                ],
+                "id": "b3c8bfa867727c2df2262816cba2f2a2",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "kodi",
+                        "1e5cef74c9a7863198f9a783c074230d"
+                    ]
+                ],
+                "id": "8ca060bb919483d7a394cac51c261e1f",
+                "orphaned_timestamp": 1629177744.4746366
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "h+4uIc+bOK38DxH6h9x7J9Qtn3MR+aJ2r4EgQ20LZLDH/TpwX7vxZW/2P2fbB1y4bSopcAEvxdrdY6Nb4ELBSutRXv/32kyNxs0U0/D7XOjcV44FCxMappJhusCbFgaM"
+                    ]
+                ],
+                "id": "8f1bc2e32607954e011d5fc5ab9f7eaf",
+                "orphaned_timestamp": 1629468264.126681
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "id": "e7f147845ff6235e1587716fd858bb95",
+                "orphaned_timestamp": 1630208871.1290638
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "kodi",
+                        "4e3f6084-bb74-43fd-a4c8-390f1dd2af49"
+                    ]
+                ],
+                "id": "3036a2ceae13f31a7d3683eabf0bc67a",
+                "orphaned_timestamp": 1630270847.461787
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b3672202-884a07f8"
+                    ]
+                ],
+                "id": "806e394703acc37094c83113d7eba386",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9a50b630-8547b449"
+                    ]
+                ],
+                "id": "e58ce3984cf9445a1ebc59b7151eaa2c",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "f1c7380c-a358f4e9"
+                    ]
+                ],
+                "id": "1be946dcce358e4895a47ccf2ab21f29",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "0b84718a-898bb0b3"
+                    ]
+                ],
+                "id": "ddea39858ce7c76851628aaa8765794d",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "0680e47d-1bba0453"
+                    ]
+                ],
+                "id": "458e4b40975f00fa931b80804e952459",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "70a76930-4e13e219"
+                    ]
+                ],
+                "id": "b3e3cc7b8438208f1f0c8f07142a5f6a",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "d6c63cb2-c276d9b8"
+                    ]
+                ],
+                "id": "1697a9de053b5ff64c1795b8e7d55d34",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "703d645f-9d09d148"
+                    ]
+                ],
+                "id": "a885224f6b11a2eef780b7ad92dc14a3",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "88fe9f90-8b01ae5d"
+                    ]
+                ],
+                "id": "56328d61d74c434f64803c2a60a475ee",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "6d0ce7d5-ae0130f2"
+                    ]
+                ],
+                "id": "21ed13b0bac5b3a1e95f30184e49c521",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "91c8ce7e-a496a6b4"
+                    ]
+                ],
+                "id": "12283d7b3673b5166b723c6356c82e5b",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "36cf2d7a-771add36"
+                    ]
+                ],
+                "id": "91401b5bb5bc32836c3df1c25da5648b",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "f9ca733c-06f0415c"
+                    ]
+                ],
+                "id": "118f4c43b6c0767d47b53665cf2e517c",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "46dc44a5-407c0c24"
+                    ]
+                ],
+                "id": "40071a41a11eaf8207154a00ace610ea",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b9b9ad3a-16e3e297"
+                    ]
+                ],
+                "id": "90ea3ac535aa41cad18142d092e67a47",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "c6c33420-fa8c9045"
+                    ]
+                ],
+                "id": "87fa752a058a9a6616cff58cb4a0aebe",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "d8837f2f-983a2d33"
+                    ]
+                ],
+                "id": "2a4e2218f05487d85cbc3b4c80f82849",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "263453ff-27efd43c"
+                    ]
+                ],
+                "id": "f7580134461dfc3c737a7b05d5f36279",
+                "orphaned_timestamp": 1630390816.582043
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9345ebac-90748754"
+                    ]
+                ],
+                "id": "81ab36210e4a8a001b91b2e5658db14e",
+                "orphaned_timestamp": 1630390816.582043
+            }
+        ]
+    }
+}

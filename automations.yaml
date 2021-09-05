@@ -1,0 +1,144 @@
+- alias: "Scan for faces when motion detected"
+  trigger:
+    - platform: state
+      entity_id: sensor.door_motion_sensor
+      to: "on"
+  action:
+    - service: image_processing.scan
+      target:
+        entity_id: image_processing.door
+
+- id: '1625609018477'
+  alias: left Office Zone Notification
+  description: Geofencing
+  use_blueprint:
+    path: homeassistant/notify_leaving_zone.yaml
+    input:
+      zone_entity: zone.big_outlet
+      person_entity: person.kristine_ng
+      notify_device: 3f8f7d375d10ad1c1b8e90c0bb1a7a74
+
+- id: '1626096712093'
+  alias: Left  Home Update
+  description: ''
+  use_blueprint:
+    path: homeassistant/notify_leaving_zone.yaml
+    input:
+      person_entity: person.kristine_ng
+      zone_entity: zone.home
+      notify_device: 3f8f7d375d10ad1c1b8e90c0bb1a7a74
+
+- id: '1626544049262'
+  alias: Arrives BiG Setia Alam
+  description: ''
+  trigger:
+  - platform: device
+    device_id: 5ac8c6358e0224f476adfc9e6f97a336
+    domain: device_tracker
+    entity_id: device_tracker.redmi_note_9_pro
+    type: enters
+    zone: zone.big_outlet
+  condition: []
+  action:
+  - service: notify.mobile_app_prof_dr_isaac_iphone_12_pro
+    data:
+      message: hui chin arrives work place
+      title: arrive BIG Setia Alam
+  mode: single
+
+# Example configuration.yaml Automation entry
+- alias: "Startup Notification"
+  trigger:
+  -  platform: homeassistant
+     event: start
+  action:
+  - service: script.ifttt_notify
+    data:
+      value1: "HA Status:"
+      value2: "HA Status:"
+      value3: "{{ trigger.event.data.entity_id.split('_')[1] }} is "
+      value4: "{{ trigger.event.data.to_state.state }}"
+
+#- id: '1628035349820'
+#  alias: Hall Motion Detected Notification
+#  description: ''
+#  use_blueprint:
+#    path: homeassistant/send-camera-snapshot-notification-on-motion.yaml
+#    input:
+#      notification_message: '{{ motion_sensor_name }} detected movement!'
+#      motion_sensor: binary_sensor.ffmpeg_motion
+#      camera: camera.hall_cam
+#      notify_device: 3f8f7d375d10ad1c1b8e90c0bb1a7a74
+#      is_ios: true
+#      notification_title: Hall Motion detected!
+
+# Example updater entry
+- alias: "Update Available Notification"
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.updater
+    from: "off"
+    to: "on"
+  action:
+  - service: notify.notify
+    data:
+       message: "Home Assistant {{ state_attr('binary_sensor.updater', 'newest_version') }} is available."
+
+# automatic backup
+  - alias: Perform Auto Backup
+    trigger:
+      platform: time_pattern # Perform backup every 3 hours.
+      hours: "/3"
+    action:
+      service: auto_backup.snapshot_partial # Only perform a partial snapshot to save storage.
+      data:
+        name: "AutoBackup: {{ now().strftime('%a, %-I:%M %p (%d/%m/%Y)') }}"
+        addons:
+          - core_mariadb # It doesn't matter if you use the addon slug or name. Name is easier.
+          - core_mosquitto
+        folders:
+          - homeassistant
+          - share
+          - ssl
+        keep_days: 2
+
+  - alias: Perform Daily Backup
+    trigger:
+      platform: time
+      at: "02:30:00"
+    condition:
+      condition: time # Perform backup every day except Mondays.
+      weekday:
+        - tue
+        - wed
+        - thu
+        - fri
+        - sat
+        - sun
+    action:
+      service: auto_backup.snapshot_full
+      data:
+        name: "DailyBackup: {{ now().strftime('%A, %B %-d, %Y') }}"
+        keep_days: 7
+
+  - alias: Perform Weekly Backup
+    trigger:
+      platform: time
+      at: "02:30:00"
+    condition:
+      condition: time # On Mondays perform a weekly backup
+      weekday:
+        - mon
+    action:
+      service: auto_backup.snapshot_full
+      data:
+        name: "WeeklyBackup: {{ now().strftime('%A, %B %-d, %Y') }}"
+        keep_days: 28 # Store backup for a month, basically perform 1 backup each week and store for 4 weeks.
+
+- alias: "Known person in front of my door"
+  trigger:
+    platform: event
+    event_type: image_processing.detect_face
+    event_data:
+      entity_id: image_processing.door
+      name: "Prof. Dr. Isaac Andy, PhD"

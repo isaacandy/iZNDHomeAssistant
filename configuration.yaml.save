@@ -1,0 +1,146 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+history:
+cloud:
+mobile_app:
+my:
+stream: 
+recorder:
+zeroconf:
+network:
+dhcp:
+ssdp:
+
+ffmpeg: 
+ ffmpeg_bin: /usr/bin/ffmpeg
+
+# Example of combining include and exclude 
+# configurations
+logbook:
+include:
+ domains:
+ - sensor
+ - switch
+ - media_player
+ exclude:
+  entities: 
+ - sensor.last_boot 
+ - sensor.date 
+    entity_globs:
+
+# sensor monitor
+  - sensor.weather_*sensor:
+  - platform: cpuspeed
+system_health:
+  - platform: systemmonitor 
+    resources:
+      - type: disk_use_percent
+        arg: /
+      - type: memory_free
+      - type: processor_temperature
+      - type: memory_use_percent 
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+#Spotify
+spotify:
+  client_id: 87d5eb5e8c974c61ba1caf5ce6000a7c
+  client_secret: 6dfcbd53d3d648dea07cd2c6cd2de532
+
+# iZND GPS integration
+device_tracker:
+  - platform: traccar
+    host: 10.0.0.1
+    port: 8082
+    username: isaac@iznd.xyz
+    password: pa55word
+    event: ['device_overspeed', 'device_fuel_drop']
+    monitored_conditions: ['alarm', 'mycomputedattribute']
+
+
+# Example configuration.yaml entry
+iperf3:
+   hosts:
+    - host: iperf.biznetnetworks.com
+
+# frontend entry
+frontend:
+  themes:
+    happy:
+      primary-color: pink
+      text-primary-color: purple
+      mdc-theme-primary: plum
+    sad:
+      primary-color: steelblue
+      modes:
+        dark:
+          secondary-text-color: slategray
+    day_and_night:
+      primary-color: coral
+      modes:
+        light:
+          secondary-text-color: olive
+        dark:
+          secondary-text-color: slategray
+
+#Camera
+
+camera:
+  - platform: generic
+    still_image_url: "http://192.168.88.109:28828/videostream.cgi?user=admin&pwd=pa55word"
+    stream_source: "rtsp://192.168.88.109:10554/udp/av0_0"
+    name: "Kitchen view"
+    verify_ssl: false
+    username: "admin"
+    password: "pa55word"
+    authentication: digest
+
+#broadlink
+remote:               
+ - platform: broadlink 
+      host: 192.168.88.9      
+     mac: "78:0f:77:d8:f5:13"
+# Remote TV Script
+script:
+  learn_tv_commands:
+    sequence:
+      - service: remote.learn_command
+        target:
+          entity_id: remote.bedroom
+        data:
+          device: television
+          command:
+            - turn on
+            - turn off
+            - volume up
+            - volume down
+# Bedroom Remotey
+script:
+  learn_tv_power_button:
+    sequence:
+      - service: remote.learn_command
+        target:
+          entity_id: remote.bedroom
+        data:
+          device: television
+          command: power
+          alternative: true
+
+# Example configuration.yaml entry
+script:
+  learn_car_unlock:
+    sequence:
+      - service: remote.learn_command
+        target:
+          entity_id: remote.garage
+        data:
+          device: car
+          command: unlock
+          command_type: rf

@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/lovelace-rpi-monitor-card/rpi-monitor-card.js?hacstag=281214271125",
+                "type": "module",
+                "id": "a3eb58fe8efc43da898afa78b075e452"
+            },
+            {
+                "url": "/hacsfiles/lovelace-auto-entities/auto-entities.js?hacstag=167744584191",
+                "type": "module",
+                "id": "f2e7547affb14aae86b868796cc64282"
+            }
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+#  - platform: generic
+#    still_image_url: "http://192.168.88.109:28828/videostream.cgi?user=admin&pwd=pa55word"
+#    stream_source: "http://192.168.88.109:28828/videostream.cgi?user=admin&pwd=pa55word"
+#    name: "Kitchen view"
+#    verify_ssl: false
+
+  - platform: proxy
+    entity_id: camera.kitchen_cam_profile_000
+    max_stream_width: 360
+    max_image_width: 720
+
+  - platform: proxy
+    entity_id: camera.hall_cam
+    max_stream_width: 360
+    max_image_width: 720
+
+#  - platform: mjpeg
+#    name: "Kitchen cam"
+#    still_image_url: "http://192.168.88.109:28828/videostream.cgi?user=admin&pwd=pa55word"
+#    mjpeg_url: "http://192.168.88.109:28828/videostream.cgi?user=admin&pwd=pa55word"
+
+  - platform: generic
+    still_image_url: "https://openapi.blurams.com/rest/service/camera/xxxxS_74ee2a6e31e4/thumbnail/current?size=640x480&token=f1cc5496a2a144debd8e1664e5ac825a"
+    stream_source: "https://openapi.blurams.com/rest/service/camera/xxxxS_74ee2a6e31e4/binary_sensor:binary_sensor:thumbnail/current?size=640x480&token=f1cc5496a2a144debd8e1664e5ac825a  "
+    name: "Hall cam"
+    verify_ssl: false
+
+ # - platform: generic
+ #   still_image_url: "http://192.168.88.109:28828/videostream.cgi?user=admin&pwd=pa55word"
+ #   stream_source: "rtsp://192.168.88.109:10554/udp/av0_0"
+ #   name: "Kitchen view test"
+  #  verify_ssl: false
+ #   username: "admin"
+  #  password: "pa55word"
+ #   authentication: digest#
+
+    #name: "kitchen-rtsp"
+    #rtsp_url: "rtsp://192.168.88.109:10554/udp/av0_0"
+
+
+  - platform: rpi_camera 
+    name: Raspberry Pi Camera  
+    image_quality: 7 
+
+
+  - platform: proxy
+    entity_id: camera.raspberry_pi_cam
+    max_stream_width: 360
+    max_image_width: 720

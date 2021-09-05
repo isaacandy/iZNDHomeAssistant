@@ -1,0 +1,68 @@
+{
+    "version": "6",
+    "key": "hacs/249381778.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@rospogrigio",
+            "@postlund"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": true,
+        "default_branch": "master",
+        "description": "local handling for Tuya devices",
+        "domain": "localtuya",
+        "domains": [
+            "climate",
+            "cover",
+            "fan",
+            "light",
+            "sensor",
+            "switch"
+        ],
+        "downloads": 0,
+        "etag_repository": "W/\"78e65297fbdc1d6f78e6a1e9f18e18ab3de07b45ee435cdff03d61c5483105a4\"",
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": true,
+        "full_name": "rospogrigio/localtuya",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": "0.116.0",
+        "id": "249381778",
+        "iot_class": [
+            "Local Push"
+        ],
+        "installed": true,
+        "installed_commit": "363d763",
+        "installed_version": "v3.2.2",
+        "open_issues": 252,
+        "last_commit": "363d763",
+        "last_version": "v3.2.2",
+        "last_updated": "2021-08-26T03:22:15Z",
+        "manifest_name": "LocalTuya integration",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-08-26T03:22:15",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "v3.2.2",
+            "v3.2.1",
+            "v3.2.0"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 609,
+        "topics": [
+            "localtuya",
+            "tuya",
+            "tuya-api"
+        ],
+        "zip_release": false
+    }
+}

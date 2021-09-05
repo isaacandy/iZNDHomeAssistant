@@ -1,0 +1,2481 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.prof_dr_isaac_andy",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "prof_dr_isaac_andy",
+                    "latitude": 3.109149932861328,
+                    "longitude": 101.58164290720744,
+                    "gps_accuracy": 14,
+                    "source": "device_tracker.prof_dr_isaac_iphone_12_pro",
+                    "user_id": "11fb7d7d9bf94539ae2913f8d067bb80",
+                    "friendly_name": "Prof. Dr. Isaac Andy",
+                    "entity_picture": "/api/image/serve/2fb54c480db1fba3621d8d3e64c504be/512x512"
+                },
+                "last_changed": "2021-09-05T10:23:24.914722+00:00",
+                "last_updated": "2021-09-05T15:50:10.984547+00:00",
+                "context": {
+                    "id": "2a0330f98c580e5a05dcf51ee3771467",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.kristine_ng",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "kristine_ng",
+                    "latitude": 3.1089994,
+                    "longitude": 101.5818176,
+                    "gps_accuracy": 17,
+                    "source": "device_tracker.redmi_note_9_pro",
+                    "user_id": "a06bca10bd1f4afcbd92a10c70dd5af9",
+                    "friendly_name": "Kristine Ng",
+                    "entity_picture": "/api/image/serve/22f752b0abecb8439e84ded556f6c965/512x512"
+                },
+                "last_changed": "2021-09-05T10:23:24.915322+00:00",
+                "last_updated": "2021-09-05T10:23:24.915322+00:00",
+                "context": {
+                    "id": "038b0dd1c4dc129497f6254564b22791",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.nga",
+                "state": "not_home",
+                "attributes": {
+                    "editable": false,
+                    "id": "nga",
+                    "latitude": 3.1565154,
+                    "longitude": 101.7095512,
+                    "gps_accuracy": 23,
+                    "source": "device_tracker.v2043",
+                    "friendly_name": "Nga"
+                },
+                "last_changed": "2021-09-05T10:23:24.915874+00:00",
+                "last_updated": "2021-09-05T10:23:24.915874+00:00",
+                "context": {
+                    "id": "68eb9b6ba650750850c3e0c9eda0902b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_ping",
+                "state": "14.147",
+                "attributes": {
+                    "state_class": "measurement",
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Kuala Lumpur",
+                    "server_country": "Malaysia",
+                    "server_id": "8700",
+                    "unit_of_measurement": "ms",
+                    "friendly_name": "SpeedTest Ping",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-09-05T15:25:36.573447+00:00",
+                "last_updated": "2021-09-05T15:25:36.573447+00:00",
+                "context": {
+                    "id": "a4fa975c9b08a766e2695376724ae785",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_download",
+                "state": "30.72",
+                "attributes": {
+                    "state_class": "measurement",
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Kuala Lumpur",
+                    "server_country": "Malaysia",
+                    "server_id": "8700",
+                    "bytes_received": 38747632,
+                    "unit_of_measurement": "Mbit/s",
+                    "friendly_name": "SpeedTest Download",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-09-05T15:25:36.574158+00:00",
+                "last_updated": "2021-09-05T15:25:36.574158+00:00",
+                "context": {
+                    "id": "b020ac7832a2c71657b01a13e6162341",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_upload",
+                "state": "24.25",
+                "attributes": {
+                    "state_class": "measurement",
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Kuala Lumpur",
+                    "server_country": "Malaysia",
+                    "server_id": "8700",
+                    "bytes_sent": 33472512,
+                    "unit_of_measurement": "Mbit/s",
+                    "friendly_name": "SpeedTest Upload",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-09-05T15:25:36.574793+00:00",
+                "last_updated": "2021-09-05T15:25:36.574793+00:00",
+                "context": {
+                    "id": "b2a01797fdee4c0bb6c31b215025aa18",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "remote.broadlink_hall_rm_mini_2_remote",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Broadlink Hall RM Mini 3 Remote",
+                    "supported_features": 3
+                },
+                "last_changed": "2021-09-05T15:27:58.060300+00:00",
+                "last_updated": "2021-09-05T15:27:58.060300+00:00",
+                "context": {
+                    "id": "0c48dbeceb2b3bfc286a62b66606f289",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "remote.guest_remote_remote",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Guest Remote Remote",
+                    "supported_features": 3
+                },
+                "last_changed": "2021-09-05T14:29:34.430909+00:00",
+                "last_updated": "2021-09-05T14:29:34.430909+00:00",
+                "context": {
+                    "id": "a87707a6c723bc56356de1b78d55ddf9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Battery State",
+                    "icon": "mdi:battery-minus"
+                },
+                "last_changed": "2021-09-05T10:23:11.783101+00:00",
+                "last_updated": "2021-09-05T10:23:11.783101+00:00",
+                "context": {
+                    "id": "e8e3fbc174f2a1977f1c928af65808d7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_charger_type",
+                "state": "none",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Charger Type",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2021-09-05T10:23:11.784118+00:00",
+                "last_updated": "2021-09-05T10:23:11.784118+00:00",
+                "context": {
+                    "id": "0de049fee2694fcb8552c1f981f8244d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_battery_temperature",
+                "state": "34.8",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Dr Isaac Samsung Note Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2021-09-05T10:23:11.784894+00:00",
+                "last_updated": "2021-09-05T10:23:11.784894+00:00",
+                "context": {
+                    "id": "a71b468bf5831dc16b7832d41786848e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_detected_activity",
+                "state": "unknown",
+                "attributes": {
+                    "in_vehicle": 10,
+                    "on_bicycle": 10,
+                    "on_foot": 10,
+                    "running": 10,
+                    "still": 10,
+                    "unknown": 40,
+                    "walking": 10,
+                    "friendly_name": "Dr Isaac Samsung Note Detected Activity",
+                    "icon": "mdi:progress-question"
+                },
+                "last_changed": "2021-09-05T10:23:11.785632+00:00",
+                "last_updated": "2021-09-05T10:23:11.785632+00:00",
+                "context": {
+                    "id": "89220f0832e43b15cf4db1e03e7dffd6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_sleep_confidence",
+                "state": "7",
+                "attributes": {
+                    "light": 1,
+                    "motion": 6,
+                    "timestamp": 1628777534000,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Dr Isaac Samsung Note Sleep Confidence",
+                    "icon": "mdi:sleep"
+                },
+                "last_changed": "2021-09-05T10:23:11.786386+00:00",
+                "last_updated": "2021-09-05T10:23:11.786386+00:00",
+                "context": {
+                    "id": "94b71eb8ed9938af2aca03c242f3f1b1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_sleep_segment",
+                "state": "7560000.0",
+                "attributes": {
+                    "end": 1628672636639,
+                    "start": 1628665076639,
+                    "status": "successful",
+                    "unit_of_measurement": "ms",
+                    "friendly_name": "Dr Isaac Samsung Note Sleep Segment",
+                    "icon": "mdi:sleep"
+                },
+                "last_changed": "2021-09-05T10:23:11.787154+00:00",
+                "last_updated": "2021-09-05T10:23:11.787154+00:00",
+                "context": {
+                    "id": "8b4eb8e53307ace3ac9f45bc1cb16e12",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_current_version",
+                "state": "beta-709-a98c7ef-full",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Current Version",
+                    "icon": "mdi:android"
+                },
+                "last_changed": "2021-09-05T10:23:11.787951+00:00",
+                "last_updated": "2021-09-05T10:23:11.787951+00:00",
+                "context": {
+                    "id": "9b859663f00623ed9ed342b87fd4db3e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_ringer_mode",
+                "state": "normal",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Ringer Mode",
+                    "icon": "mdi:volume-high"
+                },
+                "last_changed": "2021-09-05T10:23:11.794036+00:00",
+                "last_updated": "2021-09-05T10:23:11.794036+00:00",
+                "context": {
+                    "id": "7de805ca64396e12044f5c54653dcc11",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_volume_level_alarm",
+                "state": "11",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Volume Level Alarm",
+                    "icon": "mdi:alarm"
+                },
+                "last_changed": "2021-09-05T10:23:11.797363+00:00",
+                "last_updated": "2021-09-05T10:23:11.797363+00:00",
+                "context": {
+                    "id": "6c47167b52527655ab77516512b5a72d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_volume_level_call",
+                "state": "4",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Volume Level Call",
+                    "icon": "mdi:phone"
+                },
+                "last_changed": "2021-09-05T10:23:11.798336+00:00",
+                "last_updated": "2021-09-05T10:23:11.798336+00:00",
+                "context": {
+                    "id": "3bf8db083ed1fab411df6c39790d24a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_volume_level_music",
+                "state": "7",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Volume Level Music",
+                    "icon": "mdi:music"
+                },
+                "last_changed": "2021-09-05T10:23:11.804403+00:00",
+                "last_updated": "2021-09-05T10:23:11.804403+00:00",
+                "context": {
+                    "id": "5a14ed433d1614df6e87bd06696f6a0c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_volume_level_ringer",
+                "state": "0",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Volume Level Ringer",
+                    "icon": "mdi:phone-ring"
+                },
+                "last_changed": "2021-09-05T10:23:11.805339+00:00",
+                "last_updated": "2021-09-05T10:23:11.805339+00:00",
+                "context": {
+                    "id": "6d5cd366cfa08bd7a8777227f9589cd4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_bluetooth_connection",
+                "state": "3",
+                "attributes": {
+                    "connected_not_paired_devices": "[CC:29:EF:CF:6F:DC, 2B:9B:FF:5A:D4:E4]",
+                    "connected_paired_devices": "[CC:29:EF:CF:6F:DC]",
+                    "paired_devices": "[58:C5:CB:3C:F9:2E, 08:84:9D:47:9E:77, CC:C5:0A:1F:16:78, CC:29:EF:CF:6F:DC, 8C:85:90:19:E8:9E, 20:09:08:00:00:D9, 10:CE:A9:20:47:4B]",
+                    "unit_of_measurement": "connection(s)",
+                    "friendly_name": "Dr Isaac Samsung Note Bluetooth Connection",
+                    "icon": "mdi:bluetooth"
+                },
+                "last_changed": "2021-09-05T10:23:11.806144+00:00",
+                "last_updated": "2021-09-05T10:23:11.806144+00:00",
+                "context": {
+                    "id": "85ae011f7bc84d0e866ea29c9cebdf2a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_do_not_disturb_sensor",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Do Not Disturb Sensor",
+                    "icon": "mdi:do-not-disturb"
+                },
+                "last_changed": "2021-09-05T10:23:11.806878+00:00",
+                "last_updated": "2021-09-05T10:23:11.806878+00:00",
+                "context": {
+                    "id": "94b4fcd4ee8efb9df9bc9373e1b2c6b2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_geocoded_location",
+                "state": "A-13A-11 Nova Saujana, Jalan Lapangan Terbang Subang, Saujana, 40150 Shah Alam, Selangor, Malaysia",
+                "attributes": {
+                    "Administrative Area": "Selangor",
+                    "Country": "Malaysia",
+                    "ISO Country Code": "MY",
+                    "Latitude": 3.108811,
+                    "Locality": "Shah Alam",
+                    "Longitude": 101.58176,
+                    "Postal Code": "40150",
+                    "Sub Administrative Area": "null",
+                    "Sub Locality": "Saujana",
+                    "Sub Thoroughfare": "null",
+                    "Thoroughfare": "Jalan Lapangan Terbang Subang",
+                    "friendly_name": "Dr Isaac Samsung Note Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-09-05T10:23:11.807883+00:00",
+                "last_updated": "2021-09-05T10:23:11.807883+00:00",
+                "context": {
+                    "id": "feec9a1ad7d59ee929e3732032411163",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_last_reboot",
+                "state": "2021-08-12T11:46:00Z",
+                "attributes": {
+                    "Local Time": "Thu Aug 12 19:46:00 GMT+08:00 2021",
+                    "Time in Milliseconds": 1628768760884,
+                    "friendly_name": "Dr Isaac Samsung Note Last Reboot",
+                    "icon": "mdi:restart",
+                    "device_class": "timestamp"
+                },
+                "last_changed": "2021-09-05T10:23:11.808763+00:00",
+                "last_updated": "2021-09-05T10:23:11.808763+00:00",
+                "context": {
+                    "id": "2cfe7743b14db49314b11926737987da",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_last_update_trigger",
+                "state": "SensorWorker",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Last Update Trigger",
+                    "icon": "mdi:update"
+                },
+                "last_changed": "2021-09-05T10:23:11.814751+00:00",
+                "last_updated": "2021-09-05T10:23:11.814751+00:00",
+                "context": {
+                    "id": "219bbd1a5d785e540d44858bd19d49f5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_light_sensor",
+                "state": "8",
+                "attributes": {
+                    "unit_of_measurement": "lx",
+                    "friendly_name": "Dr Isaac Samsung Note Light Sensor",
+                    "icon": "mdi:brightness-5",
+                    "device_class": "illuminance"
+                },
+                "last_changed": "2021-09-05T10:23:11.815688+00:00",
+                "last_updated": "2021-09-05T10:23:11.815688+00:00",
+                "context": {
+                    "id": "a95201458099d17fd663a68f846e6adb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_wifi_connection",
+                "state": "iZND",
+                "attributes": {
+                    "is_hidden": false,
+                    "friendly_name": "Dr Isaac Samsung Note WiFi Connection",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.816437+00:00",
+                "last_updated": "2021-09-05T10:23:11.816437+00:00",
+                "context": {
+                    "id": "50f735db2554c15ddb8259e1d84f0fb8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_wifi_bssid",
+                "state": "b8:e3:b1:94:07:90",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note WiFi BSSID",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.817159+00:00",
+                "last_updated": "2021-09-05T10:23:11.817159+00:00",
+                "context": {
+                    "id": "b71d59718296d139065b0e17bc09c1e5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_wifi_ip_address",
+                "state": "192.168.88.111",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note WiFi IP Address",
+                    "icon": "mdi:ip"
+                },
+                "last_changed": "2021-09-05T10:23:11.817868+00:00",
+                "last_updated": "2021-09-05T10:23:11.817868+00:00",
+                "context": {
+                    "id": "f65e99a2eddcef86ecd4ab91b42b4d8d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_wifi_link_speed",
+                "state": "433",
+                "attributes": {
+                    "unit_of_measurement": "Mbps",
+                    "friendly_name": "Dr Isaac Samsung Note WiFi Link Speed",
+                    "icon": "mdi:wifi-strength-3"
+                },
+                "last_changed": "2021-09-05T10:23:11.818567+00:00",
+                "last_updated": "2021-09-05T10:23:11.818567+00:00",
+                "context": {
+                    "id": "635c4cb75370480508e9cfe7bfc407b5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_wifi_frequency",
+                "state": "5745",
+                "attributes": {
+                    "unit_of_measurement": "MHz",
+                    "friendly_name": "Dr Isaac Samsung Note WiFi Frequency",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.819302+00:00",
+                "last_updated": "2021-09-05T10:23:11.819302+00:00",
+                "context": {
+                    "id": "3068b6badf067c6a0e3ff206e26ea683",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_wifi_signal_strength",
+                "state": "-47",
+                "attributes": {
+                    "unit_of_measurement": "dBm",
+                    "friendly_name": "Dr Isaac Samsung Note WiFi Signal Strength",
+                    "icon": "mdi:wifi-strength-3"
+                },
+                "last_changed": "2021-09-05T10:23:11.825480+00:00",
+                "last_updated": "2021-09-05T10:23:11.825480+00:00",
+                "context": {
+                    "id": "6443fb85b46246ea44e234f4ce636c1c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_public_ip_address",
+                "state": "202.186.40.204",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Public IP Address",
+                    "icon": "mdi:ip"
+                },
+                "last_changed": "2021-09-05T10:23:11.826286+00:00",
+                "last_updated": "2021-09-05T10:23:11.826286+00:00",
+                "context": {
+                    "id": "02af4441159de1d2e3c30b7e07a8d1a2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_next_alarm",
+                "state": "unavailable",
+                "attributes": {
+                    "Local Time": "",
+                    "Package": "",
+                    "Time in Milliseconds": 0,
+                    "friendly_name": "Dr Isaac Samsung Note Next Alarm",
+                    "icon": "mdi:alarm",
+                    "device_class": "timestamp"
+                },
+                "last_changed": "2021-09-05T10:23:11.827014+00:00",
+                "last_updated": "2021-09-05T10:23:11.827014+00:00",
+                "context": {
+                    "id": "745349fd9c350cd4f0de2243a1212422",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_phone_state",
+                "state": "idle",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Phone State",
+                    "icon": "mdi:phone"
+                },
+                "last_changed": "2021-09-05T10:23:11.827849+00:00",
+                "last_updated": "2021-09-05T10:23:11.827849+00:00",
+                "context": {
+                    "id": "c543c369a63b0884a8e37f3e1ef4f231",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_sim_1",
+                "state": "yoodo",
+                "attributes": {
+                    "carrier name": "yoodo",
+                    "iso country code": "my",
+                    "friendly_name": "Dr Isaac Samsung Note SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-09-05T10:23:11.828576+00:00",
+                "last_updated": "2021-09-05T10:23:11.828576+00:00",
+                "context": {
+                    "id": "3518d2403b3c622afa1aeef2ae560573",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_sim_2",
+                "state": "Unavailable",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-09-05T10:23:11.829279+00:00",
+                "last_updated": "2021-09-05T10:23:11.829279+00:00",
+                "context": {
+                    "id": "2f5609def24b18b1bbdb1c6fa05059de",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_pressure_sensor",
+                "state": "1007.5",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "Dr Isaac Samsung Note Pressure Sensor",
+                    "icon": "mdi:gauge",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2021-09-05T10:23:11.829981+00:00",
+                "last_updated": "2021-09-05T10:23:11.829981+00:00",
+                "context": {
+                    "id": "3b289af5558bc0e6d8af4b956faff027",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_proximity_sensor",
+                "state": "8",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Proximity Sensor",
+                    "icon": "mdi:leak"
+                },
+                "last_changed": "2021-09-05T10:23:11.836163+00:00",
+                "last_updated": "2021-09-05T10:23:11.836163+00:00",
+                "context": {
+                    "id": "3b8d53d3f86d7fc4eef9f32019fa1c80",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_steps_sensor",
+                "state": "14",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "Dr Isaac Samsung Note Steps Sensor",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2021-09-05T10:23:11.836928+00:00",
+                "last_updated": "2021-09-05T10:23:11.836928+00:00",
+                "context": {
+                    "id": "d9f5510e52a5da6eba429727d070562b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_internal_storage",
+                "state": "61",
+                "attributes": {
+                    "Free internal storage": "32GB",
+                    "Total internal storage": "53GB",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Dr Isaac Samsung Note Internal Storage",
+                    "icon": "mdi:harddisk"
+                },
+                "last_changed": "2021-09-05T10:23:11.837665+00:00",
+                "last_updated": "2021-09-05T10:23:11.837665+00:00",
+                "context": {
+                    "id": "96daa23667bf586941f489fc3e63ddef",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_external_storage",
+                "state": "89",
+                "attributes": {
+                    "free_external_storage": "110GB",
+                    "total_external_storage": "124GB",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Dr Isaac Samsung Note External Storage",
+                    "icon": "mdi:micro-sd"
+                },
+                "last_changed": "2021-09-05T10:23:11.838640+00:00",
+                "last_updated": "2021-09-05T10:23:11.838640+00:00",
+                "context": {
+                    "id": "484aed7da8d4303ded1358cf64ce9192",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_current_time_zone",
+                "state": "Malaysia Time",
+                "attributes": {
+                    "in_daylight_time": false,
+                    "time_zone_id": "Asia/Kuala_Lumpur",
+                    "time_zone_short": "GMT+08:00",
+                    "uses_daylight_time": false,
+                    "utc_offset": 28800000,
+                    "friendly_name": "Dr Isaac Samsung Note Current Time Zone",
+                    "icon": "mdi:map-clock"
+                },
+                "last_changed": "2021-09-05T10:23:11.839639+00:00",
+                "last_updated": "2021-09-05T10:23:11.839639+00:00",
+                "context": {
+                    "id": "dd99cccd1ba7aa0cc68d2f41e8a5eca2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_total_rx_gb",
+                "state": "0.081",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "Dr Isaac Samsung Note Total Rx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-09-05T10:23:11.840484+00:00",
+                "last_updated": "2021-09-05T10:23:11.840484+00:00",
+                "context": {
+                    "id": "f22717072ce148f3d006e9ad44fd201f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_total_tx_gb",
+                "state": "0.013",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "Dr Isaac Samsung Note Total Tx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-09-05T10:23:11.846764+00:00",
+                "last_updated": "2021-09-05T10:23:11.846764+00:00",
+                "context": {
+                    "id": "819ca2147795c72dce38630a33ab4943",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_media_session",
+                "state": "Unavailable",
+                "attributes": {
+                    "total_media_session_count": 0,
+                    "friendly_name": "Dr Isaac Samsung Note Media Session",
+                    "icon": "mdi:play-circle"
+                },
+                "last_changed": "2021-09-05T10:23:11.847734+00:00",
+                "last_updated": "2021-09-05T10:23:11.847734+00:00",
+                "context": {
+                    "id": "a43d8dcf36ec6e4b2e618e58db816d78",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_last_notification",
+                "state": "Target steps 6000.",
+                "attributes": {
+                    "android.appInfo": "ApplicationInfo{f0af187 com.sec.android.app.shealth}",
+                    "android.bigText": "Target steps 6000.",
+                    "android.icon": 2131232141,
+                    "android.largeIcon": "android.graphics.Bitmap@2aa28b4",
+                    "android.reduced.images": true,
+                    "android.showWhen": true,
+                    "android.template": "android.app.Notification$BigTextStyle",
+                    "android.text": "Target steps 6000.",
+                    "android.title": "213 steps",
+                    "channel_id": "channel.01.step",
+                    "is_clearable": false,
+                    "is_ongoing": true,
+                    "package": "com.sec.android.app.shealth",
+                    "post_time": 1628777714017,
+                    "friendly_name": "Dr Isaac Samsung Note Last Notification",
+                    "icon": "mdi:bell-ring"
+                },
+                "last_changed": "2021-09-05T10:23:11.848594+00:00",
+                "last_updated": "2021-09-05T10:23:11.848594+00:00",
+                "context": {
+                    "id": "3fba3051bea12263af2783e67940fed6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_last_removed_notification",
+                "state": "com.samsung.android.bixby.wakeup",
+                "attributes": {
+                    "android.infoText": "null",
+                    "android.largeIcon": "null",
+                    "android.progress": 0,
+                    "android.progressIndeterminate": false,
+                    "android.progressMax": 0,
+                    "android.reduced.images": true,
+                    "android.remoteInputHistory": "null",
+                    "android.showChronometer": false,
+                    "android.showWhen": true,
+                    "android.subText": "null",
+                    "android.text": "null",
+                    "android.title": "null",
+                    "is_clearable": false,
+                    "is_ongoing": true,
+                    "package": "com.samsung.android.bixby.wakeup",
+                    "post_time": 1628776030190,
+                    "friendly_name": "Dr Isaac Samsung Note Last Removed Notification",
+                    "icon": "mdi:bell-ring"
+                },
+                "last_changed": "2021-09-05T10:23:11.849417+00:00",
+                "last_updated": "2021-09-05T10:23:11.849417+00:00",
+                "context": {
+                    "id": "0b71a652dcf316bfbdfe99ce033eb053",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_app_rx_gb",
+                "state": "0.0026",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "Dr Isaac Samsung Note App Rx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-09-05T10:23:11.850258+00:00",
+                "last_updated": "2021-09-05T10:23:11.850258+00:00",
+                "context": {
+                    "id": "777eda0baf7ed718e7df643807a009cd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_app_tx_gb",
+                "state": "0.0012",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "Dr Isaac Samsung Note App Tx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-09-05T10:23:11.856343+00:00",
+                "last_updated": "2021-09-05T10:23:11.856343+00:00",
+                "context": {
+                    "id": "d56c97c6ed694cb57eb1352ca1d1e408",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_app_memory",
+                "state": "0.033",
+                "attributes": {
+                    "free_memory": 0.004,
+                    "total_memory": 0.037,
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "Dr Isaac Samsung Note App Memory",
+                    "icon": "mdi:memory"
+                },
+                "last_changed": "2021-09-05T10:23:11.857285+00:00",
+                "last_updated": "2021-09-05T10:23:11.857285+00:00",
+                "context": {
+                    "id": "1cf4dd13583b32cf932ca89b2cb7f2be",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_app_standby_bucket",
+                "state": "never",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note App Standby Bucket",
+                    "icon": "mdi:android"
+                },
+                "last_changed": "2021-09-05T10:23:11.858112+00:00",
+                "last_updated": "2021-09-05T10:23:11.858112+00:00",
+                "context": {
+                    "id": "e20f025f6fb00f37439dd512a50b80ec",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_app_importance",
+                "state": "foreground",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note App Importance",
+                    "icon": "mdi:android"
+                },
+                "last_changed": "2021-09-05T10:23:11.858849+00:00",
+                "last_updated": "2021-09-05T10:23:11.858849+00:00",
+                "context": {
+                    "id": "d6bd7e8462d7036b07e4e9ff0515fe9a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_battery_level",
+                "state": "94",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Dr Isaac Samsung Note Battery Level",
+                    "icon": "mdi:battery-90",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-09-05T10:23:11.859765+00:00",
+                "last_updated": "2021-09-05T10:23:11.859765+00:00",
+                "context": {
+                    "id": "2c0a25585591b9a401b17522ff488d75",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dr_isaac_samsung_note_battery_health",
+                "state": "good",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Battery Health",
+                    "icon": "mdi:battery-heart-variant"
+                },
+                "last_changed": "2021-09-05T10:23:11.860618+00:00",
+                "last_updated": "2021-09-05T10:23:11.860618+00:00",
+                "context": {
+                    "id": "5d14545ababddeb7ccb033afde690808",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_is_charging",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Is Charging",
+                    "icon": "mdi:power-plug-off",
+                    "device_class": "plug"
+                },
+                "last_changed": "2021-09-05T10:23:11.866867+00:00",
+                "last_updated": "2021-09-05T10:23:11.866867+00:00",
+                "context": {
+                    "id": "7fe62b8718bcd6cf9616eef8ef08a13b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_headphones",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Headphones",
+                    "icon": "mdi:headphones-off"
+                },
+                "last_changed": "2021-09-05T10:23:11.867867+00:00",
+                "last_updated": "2021-09-05T10:23:11.867867+00:00",
+                "context": {
+                    "id": "2c143628f2635f917170d8b349dca65f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_mic_muted",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Mic Muted",
+                    "icon": "mdi:microphone"
+                },
+                "last_changed": "2021-09-05T10:23:11.868611+00:00",
+                "last_updated": "2021-09-05T10:23:11.868611+00:00",
+                "context": {
+                    "id": "0fa2c12ded707c6167675f9e39d61927",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_speakerphone",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Speakerphone",
+                    "icon": "mdi:volume-off"
+                },
+                "last_changed": "2021-09-05T10:23:11.869312+00:00",
+                "last_updated": "2021-09-05T10:23:11.869312+00:00",
+                "context": {
+                    "id": "d912d5df2f4da372f54f78f3c3702b5c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_music_active",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Music Active",
+                    "icon": "mdi:music-off"
+                },
+                "last_changed": "2021-09-05T10:23:11.870004+00:00",
+                "last_updated": "2021-09-05T10:23:11.870004+00:00",
+                "context": {
+                    "id": "6721044d969a0505dcfc7139a026e9d1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_bluetooth_state",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Bluetooth State",
+                    "icon": "mdi:bluetooth"
+                },
+                "last_changed": "2021-09-05T10:23:11.870691+00:00",
+                "last_updated": "2021-09-05T10:23:11.870691+00:00",
+                "context": {
+                    "id": "68cf18b135b0071c5826a6c19a372b7d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_device_locked",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Device Locked",
+                    "icon": "mdi:cellphone"
+                },
+                "last_changed": "2021-09-05T10:23:11.871378+00:00",
+                "last_updated": "2021-09-05T10:23:11.871378+00:00",
+                "context": {
+                    "id": "5f18f54d202aaa8e52a17880fd454a78",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_device_secure",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Device Secure",
+                    "icon": "mdi:cellphone-key"
+                },
+                "last_changed": "2021-09-05T10:23:11.877523+00:00",
+                "last_updated": "2021-09-05T10:23:11.877523+00:00",
+                "context": {
+                    "id": "25d026a4db8ec408359e863f426afa9f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_keyguard_locked",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Keyguard Locked",
+                    "icon": "mdi:cellphone"
+                },
+                "last_changed": "2021-09-05T10:23:11.878231+00:00",
+                "last_updated": "2021-09-05T10:23:11.878231+00:00",
+                "context": {
+                    "id": "2a2fc6e62c006b061f02ce089102fe1a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_keyguard_secure",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Keyguard Secure",
+                    "icon": "mdi:cellphone-key"
+                },
+                "last_changed": "2021-09-05T10:23:11.878897+00:00",
+                "last_updated": "2021-09-05T10:23:11.878897+00:00",
+                "context": {
+                    "id": "b6612758b013afcc5e87f7fc9258d2d6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_mobile_data",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Mobile Data",
+                    "icon": "mdi:signal"
+                },
+                "last_changed": "2021-09-05T10:23:11.879622+00:00",
+                "last_updated": "2021-09-05T10:23:11.879622+00:00",
+                "context": {
+                    "id": "e7f5e2a6026504ed5a2ba6da451090f7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_mobile_data_roaming",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Mobile Data Roaming",
+                    "icon": "mdi:toggle-switch"
+                },
+                "last_changed": "2021-09-05T10:23:11.880298+00:00",
+                "last_updated": "2021-09-05T10:23:11.880298+00:00",
+                "context": {
+                    "id": "a3d888dc4f8538499a55b455442478e4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_wifi_state",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note WiFi State",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.880956+00:00",
+                "last_updated": "2021-09-05T10:23:11.880956+00:00",
+                "context": {
+                    "id": "f522473e48038e82a15d9f6131a50697",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_interactive",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Interactive",
+                    "icon": "mdi:cellphone"
+                },
+                "last_changed": "2021-09-05T10:23:11.888282+00:00",
+                "last_updated": "2021-09-05T10:23:11.888282+00:00",
+                "context": {
+                    "id": "ab66d9c3418474a53bff28f77c2eecda",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_doze_mode",
+                "state": "off",
+                "attributes": {
+                    "ignoring_battery_optizimations": true,
+                    "friendly_name": "Dr Isaac Samsung Note Doze Mode",
+                    "icon": "mdi:sleep-off"
+                },
+                "last_changed": "2021-09-05T10:23:11.889221+00:00",
+                "last_updated": "2021-09-05T10:23:11.889221+00:00",
+                "context": {
+                    "id": "89cc2d42a2ecb36463a40848ac76010c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_power_save",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note Power Save",
+                    "icon": "mdi:battery-plus"
+                },
+                "last_changed": "2021-09-05T10:23:11.889934+00:00",
+                "last_updated": "2021-09-05T10:23:11.889934+00:00",
+                "context": {
+                    "id": "37aa3b97228d98be237ad830f4f54bf5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dr_isaac_samsung_note_app_inactive",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Dr Isaac Samsung Note App Inactive",
+                    "icon": "mdi:timer-outline"
+                },
+                "last_changed": "2021-09-05T10:23:11.890598+00:00",
+                "last_updated": "2021-09-05T10:23:11.890598+00:00",
+                "context": {
+                    "id": "86bb39d8aa9ee94a29326e76daf51775",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.redmi_note_9_pro_battery_level",
+                "state": "11",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Redmi Note 9 Pro Battery Level",
+                    "icon": "mdi:battery-10",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-09-05T10:23:11.891293+00:00",
+                "last_updated": "2021-09-05T10:23:11.891293+00:00",
+                "context": {
+                    "id": "72d3df8615686e0e76aea26d3e87b281",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.redmi_note_9_pro_battery_temperature",
+                "state": "34.2",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Redmi Note 9 Pro Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2021-09-05T10:23:11.892131+00:00",
+                "last_updated": "2021-09-05T10:23:11.892131+00:00",
+                "context": {
+                    "id": "aef049e005c8e6c58761a5ddcda414d3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.redmi_note_9_pro_geocoded_location",
+                "state": "5, Jalan Lapangan Terbang Subang, Saujana, 40150 Shah Alam, Selangor, Malaysia",
+                "attributes": {
+                    "Administrative Area": "Selangor",
+                    "Country": "Malaysia",
+                    "ISO Country Code": "MY",
+                    "Latitude": 3.1089242,
+                    "Locality": "Shah Alam",
+                    "Longitude": 101.581436,
+                    "Postal Code": "40150",
+                    "Sub Administrative Area": "null",
+                    "Sub Locality": "Saujana",
+                    "Sub Thoroughfare": "5",
+                    "Thoroughfare": "Jalan Lapangan Terbang Subang",
+                    "friendly_name": "Redmi Note 9 Pro Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-09-05T10:23:11.892882+00:00",
+                "last_updated": "2021-09-05T10:23:11.892882+00:00",
+                "context": {
+                    "id": "80ca3abc832d2e8b6bbc7e53777f4a59",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.redmi_note_9_pro_charger_type",
+                "state": "none",
+                "attributes": {
+                    "friendly_name": "Redmi Note 9 Pro Charger Type",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2021-09-05T10:23:11.898977+00:00",
+                "last_updated": "2021-09-05T10:23:11.898977+00:00",
+                "context": {
+                    "id": "7eb89204a06b8544e0879a7589c2c470",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.redmi_note_9_pro_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "friendly_name": "Redmi Note 9 Pro Battery State",
+                    "icon": "mdi:battery-minus"
+                },
+                "last_changed": "2021-09-05T10:23:11.899843+00:00",
+                "last_updated": "2021-09-05T10:23:11.899843+00:00",
+                "context": {
+                    "id": "8300cec39b7f2ead682e483430e30e26",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.redmi_note_9_pro_is_charging",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Redmi Note 9 Pro Is Charging",
+                    "icon": "mdi:power-plug-off",
+                    "device_class": "plug"
+                },
+                "last_changed": "2021-09-05T10:23:11.900606+00:00",
+                "last_updated": "2021-09-05T10:23:11.900606+00:00",
+                "context": {
+                    "id": "9c435dad367362030f37308759716da6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.v2043_battery_level",
+                "state": "52",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "V2043 Battery Level",
+                    "icon": "mdi:battery-50",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-09-05T10:23:11.901292+00:00",
+                "last_updated": "2021-09-05T10:23:11.901292+00:00",
+                "context": {
+                    "id": "5569e78f4300b4ca0337670a7f8aa88a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.v2043_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "friendly_name": "V2043 Battery State",
+                    "icon": "mdi:battery-minus"
+                },
+                "last_changed": "2021-09-05T10:23:11.901992+00:00",
+                "last_updated": "2021-09-05T10:23:11.901992+00:00",
+                "context": {
+                    "id": "44852d8c1bdb451e3e4056b654fbab0e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.v2043_charger_type",
+                "state": "none",
+                "attributes": {
+                    "friendly_name": "V2043 Charger Type",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2021-09-05T10:23:11.902685+00:00",
+                "last_updated": "2021-09-05T10:23:11.902685+00:00",
+                "context": {
+                    "id": "b1e0dd9cdecc31d0b8943db62272e55f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.v2043_battery_health",
+                "state": "good",
+                "attributes": {
+                    "friendly_name": "V2043 Battery Health",
+                    "icon": "mdi:battery-heart-variant"
+                },
+                "last_changed": "2021-09-05T10:23:11.908691+00:00",
+                "last_updated": "2021-09-05T10:23:11.908691+00:00",
+                "context": {
+                    "id": "41e3178caec0da03a474bfab8ed7f343",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.v2043_battery_temperature",
+                "state": "29.8",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "V2043 Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2021-09-05T10:23:11.909594+00:00",
+                "last_updated": "2021-09-05T10:23:11.909594+00:00",
+                "context": {
+                    "id": "32170aeb050d4551065d7b51b2d57ac5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.v2043_is_charging",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "V2043 Is Charging",
+                    "icon": "mdi:power-plug-off",
+                    "device_class": "plug"
+                },
+                "last_changed": "2021-09-05T10:23:11.910323+00:00",
+                "last_updated": "2021-09-05T10:23:11.910323+00:00",
+                "context": {
+                    "id": "ccdadbec619e175185ca9c936991b198",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_activity",
+                "state": "Stationary",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ],
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Activity",
+                    "icon": "mdi:human-male"
+                },
+                "last_changed": "2021-09-05T15:50:10.973655+00:00",
+                "last_updated": "2021-09-05T15:50:10.973655+00:00",
+                "context": {
+                    "id": "6b0b6c06d8b9873ac716890ae4dc7085",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_distance",
+                "state": "1309",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Distance",
+                    "icon": "mdi:hiking"
+                },
+                "last_changed": "2021-09-05T13:56:19.808001+00:00",
+                "last_updated": "2021-09-05T13:56:19.808001+00:00",
+                "context": {
+                    "id": "13872f86059d06c9390790bcd00b19f6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_steps",
+                "state": "1945",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Steps",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2021-09-05T13:56:19.813285+00:00",
+                "last_updated": "2021-09-05T13:56:19.813285+00:00",
+                "context": {
+                    "id": "0e52d4dc85397a2511c8d475b5bcaaaa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_battery_level",
+                "state": "96",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Battery Level",
+                    "icon": "mdi:battery-charging-80",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-09-05T15:50:10.974619+00:00",
+                "last_updated": "2021-09-05T15:50:10.974619+00:00",
+                "context": {
+                    "id": "f71b43fe23194c37112e40549c63a8cd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_storage",
+                "state": "1.72",
+                "attributes": {
+                    "Available": "1.84 GB",
+                    "Available (Important)": "8.60 GB",
+                    "Available (Opportunistic)": "2.20 GB",
+                    "Total": "127.87 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2021-09-05T15:50:10.975439+00:00",
+                "last_updated": "2021-09-05T15:50:10.975439+00:00",
+                "context": {
+                    "id": "f1af050c88b065c168f165a043355ada",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_bssid",
+                "state": "b8:e3:b1:94:7:90",
+                "attributes": {
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro BSSID",
+                    "icon": "mdi:wifi-star"
+                },
+                "last_changed": "2021-09-05T10:23:11.920131+00:00",
+                "last_updated": "2021-09-05T10:23:11.920131+00:00",
+                "context": {
+                    "id": "77426c9b7da2fcc1c0e5e077e50a1f91",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_ssid",
+                "state": "iZND",
+                "attributes": {
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro SSID",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.920878+00:00",
+                "last_updated": "2021-09-05T10:23:11.920878+00:00",
+                "context": {
+                    "id": "4406151ded23bf01dd0a9892181b594a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_battery_state",
+                "state": "Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Battery State",
+                    "icon": "mdi:battery-charging-80"
+                },
+                "last_changed": "2021-09-05T14:25:25.005526+00:00",
+                "last_updated": "2021-09-05T15:17:04.542252+00:00",
+                "context": {
+                    "id": "29ce96a63cbe576677ef83666d7461ac",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_last_update_trigger",
+                "state": "Background Fetch",
+                "attributes": {
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2021-09-05T15:25:09.140170+00:00",
+                "last_updated": "2021-09-05T15:25:09.140170+00:00",
+                "context": {
+                    "id": "00d55698d4b0eff97352c2068815b053",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_geocoded_location",
+                "state": "Jalan Lapangan Terbang Subang\n40150 Damansara Selangor\nMalaysia",
+                "attributes": {
+                    "Administrative Area": "Selangor",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Malaysia",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "MY",
+                    "Locality": "Damansara",
+                    "Location": [
+                        3.109149932861328,
+                        101.58164290720744
+                    ],
+                    "Name": "Jalan Lapangan Terbang Subang",
+                    "Ocean": "N/A",
+                    "Postal Code": "40150",
+                    "Sub Administrative Area": "Petaling",
+                    "Sub Locality": "Damansara",
+                    "Sub Thoroughfare": "N/A",
+                    "Thoroughfare": "Jalan Lapangan Terbang Subang",
+                    "Time Zone": "Asia/Kuala_Lumpur",
+                    "Zones": [
+                        "NOVA Home"
+                    ],
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-09-05T15:17:04.547299+00:00",
+                "last_updated": "2021-09-05T15:50:10.976387+00:00",
+                "context": {
+                    "id": "7515f1ef5a9c1d99d32c95b08763a3f8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Connection Type",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.923829+00:00",
+                "last_updated": "2021-09-05T10:23:11.923829+00:00",
+                "context": {
+                    "id": "5e8720a12989bc96c9324c77d935754c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_sim_1",
+                "state": "U Mobile",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "U Mobile",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "my",
+                    "Mobile Country Code": "502",
+                    "Mobile Network Code": "18",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-09-05T10:23:11.929926+00:00",
+                "last_updated": "2021-09-05T13:56:19.827815+00:00",
+                "context": {
+                    "id": "4ea8229cbd271d68e78b517b02ec926c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_floors_descended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Floors Descended",
+                    "icon": "mdi:stairs-down"
+                },
+                "last_changed": "2021-09-05T10:23:11.930708+00:00",
+                "last_updated": "2021-09-05T10:23:11.930708+00:00",
+                "context": {
+                    "id": "4ef64671c4d3eb4b5ea13b9284fd7369",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_floors_ascended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Floors Ascended",
+                    "icon": "mdi:stairs-up"
+                },
+                "last_changed": "2021-09-05T10:23:11.931444+00:00",
+                "last_updated": "2021-09-05T10:23:11.931444+00:00",
+                "context": {
+                    "id": "4415413a126fb206463ef818cecc7933",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_average_active_pace",
+                "state": "2",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro Average Active Pace",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-09-05T10:23:11.932259+00:00",
+                "last_updated": "2021-09-05T10:23:11.932259+00:00",
+                "context": {
+                    "id": "001e7ea00ca4c99b34f5a1160c1847fc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_sim_2",
+                "state": "CELCOM",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "CELCOM",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "my",
+                    "Mobile Country Code": "502",
+                    "Mobile Network Code": "19",
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-09-05T10:23:11.932983+00:00",
+                "last_updated": "2021-09-05T10:23:11.932983+00:00",
+                "context": {
+                    "id": "4b840db43c842254b70adb55a1fd4c3a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_battery_level",
+                "state": "56",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "isaac\u2019s iPad Battery Level",
+                    "icon": "mdi:battery-50",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-09-05T10:23:11.933694+00:00",
+                "last_updated": "2021-09-05T10:23:11.933694+00:00",
+                "context": {
+                    "id": "3a47450425f87449d689d2eefffb5298",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_activity",
+                "state": "Stationary",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ],
+                    "friendly_name": "isaac\u2019s iPad Activity",
+                    "icon": "mdi:human-male"
+                },
+                "last_changed": "2021-09-05T10:23:11.939712+00:00",
+                "last_updated": "2021-09-05T10:23:11.939712+00:00",
+                "context": {
+                    "id": "626be41c99fb3fbf99064ced0a0ecc64",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_ssid",
+                "state": "iZND",
+                "attributes": {
+                    "friendly_name": "isaac\u2019s iPad SSID",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.940633+00:00",
+                "last_updated": "2021-09-05T10:23:11.940633+00:00",
+                "context": {
+                    "id": "740aa323f66039e6641375f89cd425eb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_bssid",
+                "state": "b8:e3:b1:94:7:90",
+                "attributes": {
+                    "friendly_name": "isaac\u2019s iPad BSSID",
+                    "icon": "mdi:wifi-star"
+                },
+                "last_changed": "2021-09-05T10:23:11.941354+00:00",
+                "last_updated": "2021-09-05T10:23:11.941354+00:00",
+                "context": {
+                    "id": "cfd5be12cad6413c6f7e4a2c5da005ad",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "friendly_name": "isaac\u2019s iPad Connection Type",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-09-05T10:23:11.942052+00:00",
+                "last_updated": "2021-09-05T10:23:11.942052+00:00",
+                "context": {
+                    "id": "a4370966e6f746d4e9edbae32330ad21",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_geocoded_location",
+                "state": "Subang Airport Highway\n47301 Damansara Selangor\nMalaysia",
+                "attributes": {
+                    "Administrative Area": "Selangor",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Malaysia",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "MY",
+                    "Locality": "Damansara",
+                    "Location": [
+                        3.1094183182723345,
+                        101.58172068679667
+                    ],
+                    "Name": "Subang Airport Highway",
+                    "Ocean": "N/A",
+                    "Postal Code": "47301",
+                    "Sub Administrative Area": "Petaling",
+                    "Sub Locality": "Damansara",
+                    "Sub Thoroughfare": "N/A",
+                    "Thoroughfare": "Subang Airport Highway",
+                    "Time Zone": "Asia/Kuala_Lumpur",
+                    "Zones": [
+                        "NOVA Home"
+                    ],
+                    "friendly_name": "isaac\u2019s iPad Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-09-05T10:23:11.942783+00:00",
+                "last_updated": "2021-09-05T10:23:11.942783+00:00",
+                "context": {
+                    "id": "7f8edd9e2429aa289e0c35216af28dda",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_last_update_trigger",
+                "state": "Background Fetch",
+                "attributes": {
+                    "friendly_name": "isaac\u2019s iPad Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2021-09-05T10:23:11.943483+00:00",
+                "last_updated": "2021-09-05T10:23:11.943483+00:00",
+                "context": {
+                    "id": "3258e220a04d33634b32fbda7257bf05",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_battery_state_2",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "isaac\u2019s iPad Battery State",
+                    "icon": "mdi:battery-50"
+                },
+                "last_changed": "2021-09-05T10:23:11.944267+00:00",
+                "last_updated": "2021-09-05T10:23:11.944267+00:00",
+                "context": {
+                    "id": "89ec211f46b3cb161b6370693fa1b3b8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.isaacs_ipad_storage",
+                "state": "79.87",
+                "attributes": {
+                    "Available": "49.41 GB",
+                    "Available (Important)": "52.40 GB",
+                    "Available (Opportunistic)": "51.11 GB",
+                    "Total": "63.99 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "isaac\u2019s iPad Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2021-09-05T10:23:11.951406+00:00",
+                "last_updated": "2021-09-05T10:23:11.951406+00:00",
+                "context": {
+                    "id": "f3cbfec399dcb2e5a3ffccbf17f07560",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.dr_isaac_samsung_note",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 3.109072,
+                    "longitude": 101.5818399,
+                    "gps_accuracy": 16,
+                    "altitude": 32.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 4,
+                    "friendly_name": "Dr Isaac Samsung Note"
+                },
+                "last_changed": "2021-09-05T10:23:13.756990+00:00",
+                "last_updated": "2021-09-05T10:23:13.756990+00:00",
+                "context": {
+                    "id": "5548bf6d931e0051aea7825a690f5b47",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.redmi_note_9_pro",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 3.1089994,
+                    "longitude": 101.5818176,
+                    "gps_accuracy": 17,
+                    "altitude": 36.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 6,
+                    "friendly_name": "Redmi Note 9 Pro"
+                },
+                "last_changed": "2021-09-05T10:23:13.758535+00:00",
+                "last_updated": "2021-09-05T10:23:13.758535+00:00",
+                "context": {
+                    "id": "572cbe41e6bb6214213e876c27e24759",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.v2043",
+                "state": "not_home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 3.1565154,
+                    "longitude": 101.7095512,
+                    "gps_accuracy": 23,
+                    "altitude": 129.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 21,
+                    "friendly_name": "VIVO"
+                },
+                "last_changed": "2021-09-05T10:23:13.760074+00:00",
+                "last_updated": "2021-09-05T10:23:13.760074+00:00",
+                "context": {
+                    "id": "1732c7b05c29dfe8019824e13f531115",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.prof_dr_isaac_iphone_12_pro",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 96,
+                    "latitude": 3.109149932861328,
+                    "longitude": 101.58164290720744,
+                    "gps_accuracy": 14,
+                    "altitude": 22.19857430458069,
+                    "course": 211,
+                    "speed": 0,
+                    "vertical_accuracy": 4,
+                    "friendly_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro"
+                },
+                "last_changed": "2021-09-05T15:50:10.984143+00:00",
+                "last_updated": "2021-09-05T15:50:10.984143+00:00",
+                "context": {
+                    "id": "47f48151c3adddf440679b7dd2a005a5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.isaacs_ipad_2",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 56,
+                    "latitude": 3.1094183182723345,
+                    "longitude": 101.58172068679667,
+                    "gps_accuracy": 65,
+                    "altitude": 24.88725972175598,
+                    "vertical_accuracy": 27,
+                    "friendly_name": "isaac\u2019s iPad"
+                },
+                "last_changed": "2021-09-05T10:23:13.762968+00:00",
+                "last_updated": "2021-09-05T10:23:13.762968+00:00",
+                "context": {
+                    "id": "03fdea401bf98503fd3301c813d64971",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-05T15:53:24.904883+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.bose_speaker",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Bose speaker",
+                    "assumed_state": true,
+                    "device_class": "switch"
+                },
+                "last_changed": "2021-09-04T17:12:37.313936+00:00",
+                "last_updated": "2021-09-04T17:12:37.313936+00:00",
+                "context": {
+                    "id": "9f57b0e4ae605b164bd90a406e3d780a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T22:27:52.992445+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.samsungtv",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SamsungTV",
+                    "assumed_state": true,
+                    "device_class": "switch"
+                },
+                "last_changed": "2021-09-04T17:12:37.314255+00:00",
+                "last_updated": "2021-09-04T17:12:37.314255+00:00",
+                "context": {
+                    "id": "44a78ec9cecd295485382b4be182629c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T22:27:52.992445+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.york_aircond",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "York aircond",
+                    "assumed_state": true,
+                    "device_class": "switch"
+                },
+                "last_changed": "2021-09-04T17:12:37.314507+00:00",
+                "last_updated": "2021-09-04T17:12:37.314507+00:00",
+                "context": {
+                    "id": "9ba7f008d14e90d01607b4bb240de4ba",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T22:27:52.992445+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.zone_notification",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-28T12:20:16.130940+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1625609018477",
+                    "friendly_name": "left Office Zone Notification"
+                },
+                "last_changed": "2021-08-31T01:15:04.595467+00:00",
+                "last_updated": "2021-08-31T01:15:04.595467+00:00",
+                "context": {
+                    "id": "dbf9af900d1152545aa65dd9fce815fa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-31T10:21:46.385252+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.back_home_update",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-06T18:28:07.431197+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1626096712093",
+                    "friendly_name": "Left  Home Update"
+                },
+                "last_changed": "2021-08-31T01:15:04.595959+00:00",
+                "last_updated": "2021-08-31T01:15:04.595959+00:00",
+                "context": {
+                    "id": "fd453394002f9ae3a668be9a3791034b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-31T10:21:46.385252+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.arrives_big_setia_alam",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-27T23:56:31.178246+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1626544049262",
+                    "friendly_name": "Arrives BiG Setia Alam"
+                },
+                "last_changed": "2021-08-31T01:15:04.597638+00:00",
+                "last_updated": "2021-08-31T01:15:04.597638+00:00",
+                "context": {
+                    "id": "adcdf60ddf5a2ee16a5a33716076c766",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-31T10:21:46.385252+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.startup_notification",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-30T03:32:35.596193+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Startup Notification"
+                },
+                "last_changed": "2021-08-31T01:15:04.597296+00:00",
+                "last_updated": "2021-08-31T01:15:04.597296+00:00",
+                "context": {
+                    "id": "3b9db0874fe7f364b21e47cc3c248b12",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-31T10:21:46.385252+00:00"
+        }
+    ]
+}

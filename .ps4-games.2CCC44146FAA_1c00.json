@@ -1,0 +1,50 @@
+{
+    "CUSA02988": {
+        "media_title": "Netflix",
+        "media_image_url": null,
+        "media_content_type": null,
+        "locked": false
+    },
+    "CUSA24388": {
+        "media_title": "Apple TV",
+        "media_image_url": "https://store.playstation.com/store/api/chihiro/00_09_000/titlecontainer/my/en/999/CUSA24388_00/image",
+        "media_content_type": "app",
+        "locked": false
+    },
+    "CUSA01034": {
+        "media_title": "YouTube",
+        "media_image_url": "https://store.playstation.com/store/api/chihiro/00_09_000/titlecontainer/my/en/999/CUSA01034_00/image",
+        "media_content_type": "app",
+        "locked": false
+    },
+    "CUSA02012": {
+        "media_title": "Media Player",
+        "media_image_url": "https://store.playstation.com/store/api/chihiro/00_09_000/titlecontainer/my/en/999/CUSA02012_00/image",
+        "media_content_type": "app",
+        "locked": false
+    },
+    "CUSA10870": {
+        "media_title": "Overcooked! 2",
+        "media_image_url": "https://store.playstation.com/store/api/chihiro/00_09_000/titlecontainer/my/en/999/CUSA10870_00/image",
+        "media_content_type": "game",
+        "locked": false
+    },
+    "CUSA03386": {
+        "media_title": "Headset Companion",
+        "media_image_url": "https://store.playstation.com/store/api/chihiro/00_09_000/titlecontainer/my/en/999/CUSA03386_00/image",
+        "media_content_type": "app",
+        "locked": false
+    },
+    "NPXS21021": {
+        "media_title": "PS5 Remote Play",
+        "media_image_url": null,
+        "media_content_type": null,
+        "locked": false
+    },
+    "CUSA01780": {
+        "media_title": "Spotify",
+        "media_image_url": "https://store.playstation.com/store/api/chihiro/00_09_000/titlecontainer/my/en/999/CUSA01780_00/image",
+        "media_content_type": "app",
+        "locked": false
+    }
+}

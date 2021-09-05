@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Hall",
+                "id": "living_room"
+            },
+            {
+                "name": "Kitchen",
+                "id": "kitchen"
+            },
+            {
+                "name": "Bedroom",
+                "id": "bedroom"
+            },
+            {
+                "name": "Guest",
+                "id": "guest"
+            },
+            {
+                "name": "iZND",
+                "id": "iznd"
+            }
+        ]
+    }
+}

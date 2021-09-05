@@ -1,0 +1,58 @@
+{
+    "version": "6",
+    "key": "hacs/197116235.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@robmarkcole"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": false,
+        "default_branch": "master",
+        "description": "Home Assistant custom component for using Deepstack face recognition",
+        "domain": "deepstack_face",
+        "domains": [],
+        "downloads": 0,
+        "etag_repository": "W/\"b968e7b4254c7c5853a178a7c2dc95a7de64a8eb06e962aa2415d851ae3f1e48\"",
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "robmarkcole/HASS-Deepstack-face",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "197116235",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "700b13a",
+        "installed_version": "0.9.0",
+        "open_issues": 14,
+        "last_commit": "700b13a",
+        "last_version": "0.9.0",
+        "last_updated": "2021-08-20T11:13:40Z",
+        "manifest_name": "deepstack face custom integration",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-08-20T11:13:40",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "0.9.0",
+            "v0.8",
+            "v0.7"
+        ],
+        "selected_tag": null,
+        "show_beta": true,
+        "stargazers_count": 135,
+        "topics": [
+            "computer-vision",
+            "deep-learning",
+            "home-assistant"
+        ],
+        "zip_release": false
+    }
+}

@@ -1,0 +1,837 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "c1b3f3ea344a54ff6d8f69de72783a63",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Dr Isaac Samsung Note",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.9.0-full (723)",
+                    "device_name": "Dr Isaac Samsung Note",
+                    "manufacturer": "samsung",
+                    "model": "SM-N950F",
+                    "os_name": "Android",
+                    "os_version": "28",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "eTEBp7q9SXqtieKMl1EFZK:APA91bFqvTTiUQF5zcUVylG6z3qi02GCNghYEDjzbS-VXh01ey2HPWmPrn3ZbRF1W3w1CgjtBOIXoI24dY9sbclOpjN7YXw_DlALqiiDR735ZNaxPJ6AHnpmDtzkBbKS8oCGx--134RH"
+                    },
+                    "device_id": "0180e1d0feceae46",
+                    "webhook_id": "7881ae0a675e0dbc38c9fabd979696fa9ecafd104a200256f2042f175c29b859",
+                    "user_id": "11fb7d7d9bf94539ae2913f8d067bb80"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-0180e1d0feceae46",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "01eb858f18ba8e0bb8ed695ca931f62e",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "ignore_cec": [],
+                    "known_hosts": [
+                        "Google-Home-Mini",
+                        "osmc-kodi"
+                    ],
+                    "uuid": [],
+                    "user_id": "194425d179d6479ba8d89f899bfd401e"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "cast",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "694c10993845516df394321483515824",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Huawei IGD",
+                "data": {
+                    "udn": "uuid:00e0fc37-2525-2828-2500-B8E3B1940785",
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                    "hostname": "10.0.0.254"
+                },
+                "options": {
+                    "scan_interval": 30
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "uuid:00e0fc37-2525-2828-2500-B8E3B1940785::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "bb21fcc0b95dd2e3f8e0ebcaa9b8cb21",
+                "version": 1,
+                "domain": "rpi_power",
+                "title": "Raspberry Pi Power Supply Checker",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "rpi_power",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "1e35c93a50217121a3d8bb59467c4755",
+                "version": 1,
+                "domain": "local_ip",
+                "title": "local_ip",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "dc7cd6a0ee93221bb05e1aebcd80a344",
+                "version": 1,
+                "domain": "spotify",
+                "title": "Spotify",
+                "data": {
+                    "auth_implementation": "spotify",
+                    "token": {
+                        "access_token": "BQABkyX8ZkNSkwfYnKWpsajJq_P1WJe6cJjVjL22KHwady60np3UBunGTnByHINxVIUkTuuTMAgY79fpWYqR7y3aGK7ieA8YFRDqpFH0UmcL86L0_A6lkTT8qOX0kaOtFALsmGHRVKZdYCaYRoqIFPDnZjB8yO-649NroD2a2Cb5p9dApLttKYRvcNMHBiOLs7pY1VEiR8xzAvg",
+                        "token_type": "Bearer",
+                        "expires_in": 3600,
+                        "refresh_token": "AQBYtjqRFZYDY4tmmIAqBwC5R-5V0Cn_uFriFk9xkNYEpBVGkYk251sHjzfP2kxFhKFoHGSIq2N2qzHAyjHU-ggJKdn7U-Etx_mz8YODOzr89v4-vZTXMIIeL7aLfAnquWk",
+                        "scope": "playlist-read-private playlist-read-collaborative user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-recently-played user-read-playback-position user-read-private user-top-read",
+                        "expires_at": 1630858995.0291948
+                    },
+                    "id": "12164520480",
+                    "name": "Dr. Isaac Govind Andy"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "12164520480",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "929bf418bf3a003834718d573d456dee",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Redmi Note 9 Pro",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "beta-717-626a287-full (717)",
+                    "device_name": "Redmi Note 9 Pro",
+                    "manufacturer": "Xiaomi",
+                    "model": "Redmi Note 9 Pro",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "f-feLPEcQPiA_POplh4O3q:APA91bGLxR-0w92ka-sYmB426Aa2rcqbQlLEiiP_85ysybJqJEuc8Le9vD1JIPQOyhWKjgy_znUP1ywUmlOgjDTqcRu_qMaxteaQej0JE1K4OuWuBWmqkICqcqdWjzKBidSUZn4xGvcw"
+                    },
+                    "device_id": "4141f270c9c3d20d",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABg6Ewugbzl5qXQXjq6LflglW1NRnA0qb0UX-CHglV4xlTYq2wWfjjBsbUWENKB81G55s5_Tfavkcz9PZkxyhohbgouJlfDKL62FeipzGgTldiXaQBdyGiRvzIz8xfY86YZxcxSswTTBYEfqFnBmpRXVn9XZxHrduBcCe5IpWBgTaqdAmE=",
+                    "webhook_id": "5125f01824e707ba3c66d4f5d472684c69c5c33cc02504479dfb99da7ebdcb49",
+                    "user_id": "a06bca10bd1f4afcbd92a10c70dd5af9"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-4141f270c9c3d20d",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "cd42462568ed398759a80a3850ebc4b3",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "V2043",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.6.2-full (694)",
+                    "device_name": "VIVO",
+                    "manufacturer": "vivo",
+                    "model": "V2043",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "dmCFB5_UT5-142WNNxwjcg:APA91bHq_PZDHE6XrHZNSxwm1l5Bc7nmnlWK8hf7LQuuBEQLwOOCXCFVXHuLqE9kqBkQNpBBWfS4ew27XHGI0Jla5GxzcDG-9xX5FlMt3hsZn1pQF0q-DXGpHtJtCbwq3tPukNCQv0eo"
+                    },
+                    "device_id": "0dfa71588c2533d2",
+                    "webhook_id": "7c0ca96a05a10c666e5afc7baf370bad5799d5a51a198665ee23be558c1d5ed4",
+                    "user_id": "7e13b506766545b1ad966452ab056526"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-0dfa71588c2533d2",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "7b60dff21dd149161ac3ccd1676880d3",
+                "version": 1,
+                "domain": "tuya",
+                "title": "isaac@iznd.xyz ",
+                "data": {
+                    "country_code": "60",
+                    "password": "pa55word",
+                    "platform": "smart_life",
+                    "username": "isaac@iznd.xyz "
+                },
+                "options": {
+                    "discovery_interval": 605
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "60c2ad8f3efb7acb92f645ba70e31ab8",
+                "version": 1,
+                "domain": "homekit",
+                "title": "HASS Bridge:21064",
+                "data": {
+                    "name": "HASS Bridge",
+                    "exclude_accessory_mode": true,
+                    "port": 21064
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [
+                            "climate",
+                            "humidifier",
+                            "fan",
+                            "light",
+                            "lock",
+                            "media_player",
+                            "switch",
+                            "vacuum",
+                            "water_heater",
+                            "device_tracker",
+                            "camera",
+                            "remote",
+                            "person",
+                            "binary_sensor",
+                            "automation"
+                        ],
+                        "exclude_domains": [],
+                        "include_entities": [],
+                        "exclude_entities": [
+                            "device_tracker.leili",
+                            "device_tracker.honda_keys",
+                            "device_tracker.house_keys"
+                        ]
+                    },
+                    "mode": "bridge",
+                    "auto_start": true,
+                    "entity_config": {
+                        "camera.kitchen_cam_profile_000": {
+                            "video_codec": "copy",
+                            "manufacturer": "Vstarcam",
+                            "model": "Hi3518eV100",
+                            "sw_version": "2.4"
+                        },
+                        "camera.kitchen_spy_cam": {
+                            "video_codec": "copy"
+                        },
+                        "camera.hall_cam": {
+                            "video_codec": "copy"
+                        },
+                        "camera.camera_proxy_camera_kitchen_cam_profile_000": {
+                            "video_codec": "copy"
+                        },
+                        "camera.kitchen_cam": {
+                            "video_codec": "copy"
+                        },
+                        "camera.kitchen_view": {
+                            "video_codec": "copy"
+                        },
+                        "camera.camera_proxy_camera_raspberry_pi_cam": {
+                            "video_codec": "copy"
+                        },
+                        "camera.camera_proxy_camera_hall_cam": {
+                            "video_codec": "copy"
+                        }
+                    }
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "30b59703dcaf48775a0da19c592656bf",
+                "version": 1,
+                "domain": "homekit",
+                "title": "Kitchen view:21066",
+                "data": {
+                    "port": 21066,
+                    "name": "Kitchen view"
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [
+                            "alarm_control_panel",
+                            "media_player",
+                            "switch",
+                            "fan",
+                            "climate",
+                            "light",
+                            "camera"
+                        ],
+                        "exclude_domains": [],
+                        "include_entities": [
+                            "camera.camera_proxy_camera_kitchen_cam_profile_000",
+                            "camera.camera_proxy_camera_hall_cam"
+                        ],
+                        "exclude_entities": []
+                    },
+                    "entity_config": {
+                        "camera.kitchen_view": {
+                            "video_codec": "copy",
+                            "support_audio": false,
+                            "max_width": 1920,
+                            "max_height": 1080,
+                            "max_fps": 30,
+                            "audio_codec": "libopus",
+                            "audio_map": "0:a:0",
+                            "video_map": "0:v:0",
+                            "audio_packet_size": 188,
+                            "video_packet_size": 1316,
+                            "stream_count": 3,
+                            "stream_source": "rtsp://192.168.88.109:10554/udp/av0_0"
+                        },
+                        "camera.kitchen_cam_profile_000": {
+                            "video_codec": "copy",
+                            "manufacturer": "Vstarcam",
+                            "model": "Hi3518eV100",
+                            "sw_version": "2.4"
+                        },
+                        "camera.hall_cam": {
+                            "video_codec": "copy",
+                            "support_audio": false,
+                            "max_width": 1920,
+                            "max_height": 1080,
+                            "max_fps": 30,
+                            "audio_codec": "libopus",
+                            "audio_map": "0:a:0",
+                            "video_map": "0:v:0",
+                            "audio_packet_size": 188,
+                            "video_packet_size": 1316,
+                            "stream_count": 3,
+                            "stream_source": "https://file-sg-hw.blurams.com/h5player/output/html5FlvPlayer.html?_ts=451839&cameraOn=true&debug=false&useWebSocket=true&productKey=1cad3c83-d87&token=3221b3ff9e0c48e7af0cfc1d7764ffa8&deviceId=xxxxS_74ee2a6e31e4&channelNo=&shareId=&channel=720p&downloadServer=https://file-sg-hw.blurams.com/cds&startTime=&endTime=&disableLive=false&clientId=&isFishEye=false&region=&relayServer=10.66.2.219:50921&isPermanentStorage=false&hasAudio=true&hasCloudGb=false&isSDCardPlayback=false&bufferedTime=3&enableLiveBuffer=false&reportInterval=15"
+                        },
+                        "camera.kitchen_cam": {
+                            "video_codec": "copy",
+                            "support_audio": false,
+                            "max_width": 1920,
+                            "max_height": 1080,
+                            "max_fps": 30,
+                            "audio_codec": "libopus",
+                            "audio_map": "0:a:0",
+                            "video_map": "0:v:0",
+                            "audio_packet_size": 188,
+                            "video_packet_size": 1316,
+                            "stream_count": 3
+                        },
+                        "camera.camera_proxy_camera_kitchen_cam_profile_000": {
+                            "video_codec": "copy",
+                            "support_audio": false,
+                            "max_width": 1920,
+                            "max_height": 1080,
+                            "max_fps": 30,
+                            "audio_codec": "libopus",
+                            "audio_map": "0:a:0",
+                            "video_map": "0:v:0",
+                            "audio_packet_size": 188,
+                            "video_packet_size": 1316,
+                            "stream_count": 3
+                        },
+                        "camera.hall_view": {
+                            "video_codec": "copy",
+                            "support_audio": false,
+                            "max_width": 1920,
+                            "max_height": 1080,
+                            "max_fps": 30,
+                            "audio_codec": "libopus",
+                            "audio_map": "0:a:0",
+                            "video_map": "0:v:0",
+                            "audio_packet_size": 188,
+                            "video_packet_size": 1316,
+                            "stream_count": 3
+                        },
+                        "camera.camera_proxy_camera_hall_cam": {
+                            "video_codec": "copy",
+                            "support_audio": false,
+                            "max_width": 1920,
+                            "max_height": 1080,
+                            "max_fps": 30,
+                            "audio_codec": "libopus",
+                            "audio_map": "0:a:0",
+                            "video_map": "0:v:0",
+                            "audio_packet_size": 188,
+                            "video_packet_size": 1316,
+                            "stream_count": 3
+                        }
+                    },
+                    "mode": "bridge",
+                    "auto_start": true
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "accessory",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "896fff8441e9eeadc3f23c1e5a133bb8",
+                "version": 1,
+                "domain": "ipp",
+                "title": "FUJI XEROX DocuPrint CP116/119 w (44:57:9E)",
+                "data": {
+                    "host": "192.168.88.152",
+                    "port": 631,
+                    "ssl": false,
+                    "verify_ssl": false,
+                    "base_path": "/ipp/print",
+                    "name": "FUJI XEROX DocuPrint CP116/119 w (44:57:9E)",
+                    "uuid": "00000001-0000-1000-8000-94e97944579e"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "00000001-0000-1000-8000-94e97944579e",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "cc844152175269092a76c4e65ff2dad2",
+                "version": 1,
+                "domain": "traccar",
+                "title": "iZND GPS  Webhook",
+                "data": {
+                    "webhook_id": "06a4fb1b12cf5bb500acb8e66f0ad3fecb1eb3a5cf9a1ce9645086aa7637f48b",
+                    "cloudhook": false
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "8c0eb12a7569c7fccc77dbb8a4793c6b",
+                "version": 1,
+                "domain": "speedtestdotnet",
+                "title": "SpeedTest",
+                "data": {},
+                "options": {
+                    "server_name": "*Auto Detect",
+                    "scan_interval": 60,
+                    "manual": false,
+                    "server_id": null
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d905968fc22aabb90e94087169f70b6c",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Prof Dr Isaac \uf8ff iPhone 12 Pro",
+                "data": {
+                    "os_version": "15.0",
+                    "model": "iPhone13,2",
+                    "app_data": {
+                        "push_token": "eOh-kTEc8k7goKQiFUoosQ:APA91bEKrIZrHtavA0WBT7cbtIHR26Bctqq9XookBboDPB71gkYZiPLHldhBFfL9ThjKaitN0PuR4Fc_lcmcbKuMTV0ts9S5cYtIxH_8RwQ-gHwzwFYRmArJ5Y1qqwP0t2rqfImlNMEE",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_name": "Home Assistant",
+                    "manufacturer": "Apple",
+                    "supports_encryption": true,
+                    "app_id": "io.robbie.HomeAssistant",
+                    "device_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro",
+                    "app_version": "2021.8 (2021.216)",
+                    "device_id": "9220B516-10ED-4CEC-97A8-4B9B939AEA74",
+                    "os_name": "iOS",
+                    "webhook_id": "6d1cf61df10607482fb0b8667b55943e3e1678601e20329bb50ae6786e09a51f",
+                    "secret": "802f3f9d2214bcf0a01eca14a4837618b7399b45b60d50d3c56870e17f7da906",
+                    "user_id": "11fb7d7d9bf94539ae2913f8d067bb80"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-9220B516-10ED-4CEC-97A8-4B9B939AEA74",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "40797a0413363ccb90d699435f181662",
+                "version": 1,
+                "domain": "favicon",
+                "title": "",
+                "data": {
+                    "icon_path": "/local/favicon",
+                    "title": "iZND Home Assistant"
+                },
+                "options": {
+                    "title": "iZND Home Assistant IoT",
+                    "icon_path": "/local/favicon"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "42988e8de4eace35e74345ce4e3d4ef4",
+                "version": 1,
+                "domain": "ifttt",
+                "title": "IFTTT Webhook",
+                "data": {
+                    "webhook_id": "aac3a993aedda5c74379fc0ceffeb2aeee1c59163be24c36e88715acabc3cacf",
+                    "cloudhook": false
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e39519457776d037eb3dfde6d43c8fff",
+                "version": 1,
+                "domain": "shopping_list",
+                "title": "Shopping List",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "shopping_list",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b00246ea02608f7b983a91dbbe60c0b2",
+                "version": 3,
+                "domain": "ps4",
+                "title": "PlayStation 4",
+                "data": {
+                    "token": "4f122fd4a26acc5d346c43bb43e183830c409a62fae862cc344894b2f05a1c00",
+                    "devices": [
+                        {
+                            "host": "192.168.88.124",
+                            "name": "PlayStation 4",
+                            "region": "Maylasia"
+                        }
+                    ]
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b021d687eef5a1c8ea45f3beb2a12783",
+                "version": 1,
+                "domain": "transmission",
+                "title": "Transmission",
+                "data": {
+                    "name": "Transmission",
+                    "port": 9091,
+                    "password": "psmc",
+                    "host": "10.0.0.4",
+                    "username": "osmc"
+                },
+                "options": {
+                    "scan_interval": 120,
+                    "limit": 10,
+                    "order": "best_ratio_first"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "1399d3a7ff8de24fc5c0b417fc55846f",
+                "version": 1,
+                "domain": "onvif",
+                "title": "Vstarcam - 28:AD:3E:06:27:17",
+                "data": {
+                    "name": "Vstarcam",
+                    "host": "192.168.88.109",
+                    "port": 10080,
+                    "username": "admin",
+                    "password": "pa55word",
+                    "snapshot_auth": "digest"
+                },
+                "options": {
+                    "extra_arguments": "-pred 1",
+                    "rtsp_transport": "udp"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "28:AD:3E:06:27:17",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e85f8459075f6d32eaea4e420535101a",
+                "version": 1,
+                "domain": "icloud",
+                "title": "isaac@iznd.com.my",
+                "data": {
+                    "username": "isaac@iznd.com.my",
+                    "password": "P@55wordiznd",
+                    "with_family": true,
+                    "max_interval": 30,
+                    "gps_accuracy_threshold": 500
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "reauth",
+                "unique_id": "isaac@iznd.com.my",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "70f55b79f04d9bbd0c9ab4d84713b428",
+                "version": 1,
+                "domain": "ios",
+                "title": "Home Assistant iOS",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "ios",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "889493304ea15c4d08291a33fdca23d8",
+                "version": 1,
+                "domain": "kodi",
+                "title": "osmc-kodi",
+                "data": {
+                    "name": "osmc-kodi",
+                    "host": "10.0.0.4",
+                    "port": 8080,
+                    "ws_port": 9090,
+                    "username": "osmc",
+                    "password": "osmc",
+                    "ssl": false,
+                    "timeout": 5
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "ab5074aa-68ab-489e-9d26-d1a2a3433d35",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d09a16fcca5d473258e75d682c956851",
+                "version": 1,
+                "domain": "broadlink",
+                "title": "Broadlink Hall RM Mini 3",
+                "data": {
+                    "host": "192.168.88.177",
+                    "mac": "780f77d8f513",
+                    "type": 10039,
+                    "timeout": 5
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "780f77d8f513",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b7c88e8712b0bdfd1df6ab9333529f57",
+                "version": 1,
+                "domain": "nmap_tracker",
+                "title": "Nmap Tracker 10.0.0.0/24,192.168.88.0/24",
+                "data": {},
+                "options": {
+                    "hosts": "10.0.0.0/24,192.168.88.0/24",
+                    "home_interval": 20,
+                    "exclude": "",
+                    "scan_options": "-F -T4 --min-rate 10 --host-timeout 5s",
+                    "interval_seconds": 183,
+                    "consider_home": 180
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f21205a88b04829e934a0e64723609f2",
+                "version": 1,
+                "domain": "broadlink",
+                "title": "Guest Remote",
+                "data": {
+                    "host": "192.168.88.130",
+                    "mac": "a043b018a8ad",
+                    "type": 25278,
+                    "timeout": 5
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "a043b018a8ad",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "46082347fd197242a37d7a234fd95431",
+                "version": 1,
+                "domain": "nut",
+                "title": "10.0.0.3:3493",
+                "data": {
+                    "password": "nut",
+                    "username": "nut",
+                    "host": "10.0.0.3",
+                    "port": 3493,
+                    "resources": [
+                        "ups.load",
+                        "ups.status",
+                        "ups.test.result",
+                        "ups.realpower.nominal",
+                        "ups.beeper.status",
+                        "ups.timer.shutdown",
+                        "ups.timer.reboot",
+                        "battery.charge.warning",
+                        "battery.charge.low",
+                        "battery.voltage",
+                        "battery.voltage.nominal",
+                        "battery.runtime.low",
+                        "battery.date",
+                        "input.sensitivity",
+                        "battery.type",
+                        "input.transfer.low",
+                        "input.transfer.high",
+                        "input.voltage",
+                        "input.voltage.nominal",
+                        "ups.status.display",
+                        "ups.alarm",
+                        "battery.charge",
+                        "battery.runtime"
+                    ]
+                },
+                "options": {
+                    "resources": [
+                        "ups.load",
+                        "ups.status",
+                        "ups.test.result",
+                        "ups.realpower.nominal",
+                        "ups.beeper.status",
+                        "ups.timer.shutdown",
+                        "ups.timer.reboot",
+                        "battery.charge.warning",
+                        "battery.charge.low",
+                        "battery.voltage",
+                        "battery.voltage.nominal",
+                        "battery.runtime.low",
+                        "battery.date",
+                        "input.sensitivity",
+                        "battery.type",
+                        "input.transfer.low",
+                        "input.transfer.high",
+                        "input.voltage",
+                        "input.voltage.nominal",
+                        "ups.status.display",
+                        "ups.alarm",
+                        "battery.charge",
+                        "battery.runtime"
+                    ],
+                    "scan_interval": 60
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "4660473b1d293c5b0ccacf94a058b9cc",
+                "version": 1,
+                "domain": "co2signal",
+                "title": "CO2 Signal",
+                "data": {
+                    "api_key": "W3wlHxV0qRugT9704ks5X5fgvO4GJIrS"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "2aaffbc926e58f2fa801677c2a27dfdb",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "isaac\u2019s iPad",
+                "data": {
+                    "os_name": "iOS",
+                    "manufacturer": "Apple",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "device_id": "48EA6102-9FF1-4F8C-A8DD-0D8014B0A5F4",
+                    "os_version": "14.5.1",
+                    "supports_encryption": true,
+                    "app_data": {
+                        "push_token": "fUOhEdt3NkgMrAOTly9yi1:APA91bHsuzhjrplpla7268h2IV-69DCN_wytq7BL-LnXQoiOo1AIcKszbRf5iLmCddTvhQsLHc1_ry3G0jOQ9ql4Kyzh1niEJO7qmTioA7Dvyl1LeKIYa0RKTtKy-vTlf8dbCONWaJVd",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "model": "iPad5,3",
+                    "device_name": "isaac\u2019s iPad",
+                    "app_version": "2021.8 (2021.216)",
+                    "webhook_id": "d3d04a6673085cf567fc3e1234f30c072e63faf0864a1f678f46f6f4ff0912f1",
+                    "secret": "c49c25a5304eae20d5287554077128543ac02a9372974ff49cf77ce4941e43d8",
+                    "user_id": "11fb7d7d9bf94539ae2913f8d067bb80"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-48EA6102-9FF1-4F8C-A8DD-0D8014B0A5F4",
+                "disabled_by": null
+            }
+        ]
+    }
+}

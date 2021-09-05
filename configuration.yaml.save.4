@@ -1,0 +1,235 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+cloud:
+mobile_app:
+my:
+stream: 
+zeroconf:
+network:
+dhcp:
+ssdp:
+
+
+updater:
+#browser_mod:
+#  prefix: "browser_"
+
+# recorder entry with include and exclude
+recorder:
+  include:
+    domains:
+      - sensor
+      - switch
+      - media_player
+  exclude:
+    entities:
+     - sensor.last_boot
+     - sensor.date
+    entity_globs:
+     - sensor.weather_*
+
+ifttt:
+  key:
+     "TestHA_Trigged": dYm5z4XTXuCBxkrSyk3Tk1
+
+auto_backup:
+  auto_purge: true
+
+favicon:
+  title: iZND iOT Home Assistant 
+  icon_path: /local/favicons/
+
+
+#sonoff ewelink
+sonoff: 
+    username: +60192222376
+    password: pa55word 
+    scan_interval: 60 
+#(optional, lower values than 60 won't work  anymore!) 
+# grace_period: 600 
+    api_region: 'eu' 
+    entity_prefix: True 
+    debug: false 
+    mode: local
+    reload: always
+
+#history stats
+sensor:
+  - platform: history_stats
+    name: Lamp ON today
+    entity_id: switch.884343309c9c1f83ca5a_2
+    state: "on"
+    type: time
+    start: "{{ now().replace(hour=0, minute=0, second=0) }}"
+    end: "{{ now() }}"
+  - platform: cpuspeed
+  - platform: websocket_api
+
+  - platform: hddtemp
+    disks:
+      - /dev/mmcblk0
+
+
+
+#17track courier monitor
+  - platform: seventeentrack
+    username: isaac@iznd.xyz
+    password: pa55word
+
+#media-source: //192.168.88.103/public
+
+
+image_processing:
+  - platform: dlib_face_detect
+    source:
+      - entity_id: camera.hall_cam
+      - entity_id: camera.vstarcam_profile_000
+
+
+  - platform: _AN_IMAGE_PROCESSING_PLATFORM_
+    scan_interval: 10000
+
+
+
+
+
+# Example of combining include and exclude 
+logbook:
+  include:
+    domains:
+      - sensor
+      - switch
+      - media_player
+  exclude:
+    entities: 
+      - sensor.last_boot 
+      - sensor.date 
+    entity_globs:
+      - sensor.weather_*
+
+
+system_health:
+  - platform: systemmonitor 
+    resources:
+      - type: disk_use_percent
+        arg: /boot
+      - type: memory_free
+      - type: processor_temperature
+      - type: memory_use_percent 
+
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+#media player
+media_player:
+  - platform: group
+    entities:
+      - media_player.guest_display
+      - media_player.hall_speaker
+      - media_player.spotify_dr_isaac_govind_andy
+      - media_player.playstation4
+      - media_player.osmc-kodi
+      - media_player.bose_soundtouch_hall
+  - platform: soundtouch
+    host: 192.168.88.104
+    port: 8090
+    name: Bose Soundtouch Hall
+
+
+
+camera: !include cameras.yaml
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+homeassistant:
+  customize: !include customize.yaml
+
+#Spotify
+spotify:
+  client_id: 87d5eb5e8c974c61ba1caf5ce6000a7c
+  client_secret: 6dfcbd53d3d648dea07cd2c6cd2de532
+
+
+# iZND GPS integration
+device_tracker:
+  - platform: traccar
+    host: iznd-node02
+    port: 8082
+    username: isaac@iznd.xyz
+    password: pa55word
+    event: ['device_overspeed', 'device_fuel_drop', 'device_moving']
+    monitored_conditions: ['alarm', 'mycomputedattribute']
+
+  - platform: trackr
+    username: isaac@iznd.xyz
+    password: 15aaC761671
+
+
+panel_iframe:
+   izndgps:
+     title: iZND GPS Fleet
+     icon: mdi:car-connected
+     url: http://iznd-node02:8082
+
+   osmc-kodi:
+     title: iZND Kodi -OSMC
+     icon: hacs:cast-connected
+     url: http://osmc-kodi:8080
+
+
+# frontend entry
+frontend:
+  themes:
+    happy:
+      primary-color: pink
+      text-primary-color: purple
+      mdc-theme-primary: plum
+    sad:
+      primary-color: steelblue
+      modes:
+        dark:
+          secondary-text-color: slategray
+    day_and_night:
+      primary-color: coral
+      modes:
+        light:
+          secondary-text-color: olive
+        dark:
+          secondary-text-color: slategray
+
+
+#type: weather-forecast
+#entity: 'weather.openweathermap'
+#api: http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=542b5c323fa3d4fade3b87e63c2d2c2d
+
+
+
+# broadlink
+switch:
+   - platform: broadlink
+     mac: 78:0F:77:D8:F5:13
+     switches:
+      - name: Bose speaker
+        command_on: JgByACAyDzMPMhARDxIPMw8yEBEPMw8SDxEQMg8zEBAQERAyEBEPAAaLITEPMxEwDxIREBEwEjAREBEvFA4QEQ8zETAQEREQDzMREBEABokhMQ8zEDEREA8SDzMRMBEQETEPERIPEDIRMREPEg8RMQ8SDwANBQAAAAAAAA==
+        command_off: JgByACAyDzMPMhARDxIPMw8yEBEPMw8SDxEQMg8zEBAQERAyEBEPAAaLITEPMxEwDxIREBEwEjAREBEvFA4QEQ8zETAQEREQDzMREBEABokhMQ8zEDEREA8SDzMRMBEQETEPERIPEDIRMREPEg8RMQ8SDwANBQAAAAAAAA==
+
+      - name: SamsungTV
+        command_on: JgCMAJWWEjgRORE5ERQRFBEUEhMSExI5ETkSOBEUERQRFBEUEhMSFBE5ERQRFBEUERQRFBEUETkSExI5ETkRORE5ETkSOBIABg+VlRI4ETkSOREUERQRFBEUERQRORI4EjgSFBEUERQRFBEUERQROREUERQSExITEhQTEhE5ERQRORE5ETkSORI4ETkRAA0FAAAAAAAAAAAAAAAA
+        command_off: JgCMAJWWEjgRORE5ERQRFBEUEhMSExI5ETkSOBEUERQRFBEUEhMSFBE5ERQRFBEUERQRFBEUETkSExI5ETkRORE5ETkSOBIABg+VlRI4ETkSOREUERQRFBEUERQRORI4EjgSFBEUERQRFBEUERQROREUERQSExITEhQTEhE5ERQRORE5ETkSORI4ETkRAA0FAAAAAAAAAAAAAAAA
+     
+      - name: York aircond
+        command_on: JgCWAAABQgABRQABQwABRJlSDAwNHg4eDQsMHwwMDgsNCwwfDAwNDAsNCw0MDAwgCw0OCwsMDgoNHwwfDB8MDQ4JDQwNCw4eDQsMDA0LDA0NCw0LDQsNCw0MCyANCwwMDgsMHwwMDAwOHgwfDQsMDA4KDQwLDQ4dDA0NCw0eDAwMDQ0LDAwNHgwgDQsNCwwMDR8MAAKcmAANBQAA
+        command_off: JgCWAAABQgABRQABQwABRJlSDAwNHg4eDQsMHwwMDgsNCwwfDAwNDAsNCw0MDAwgCw0OCwsMDgoNHwwfDB8MDQ4JDQwNCw4eDQsMDA0LDA0NCw0LDQsNCw0MCyANCwwMDgsMHwwMDAwOHgwfDQsMDA4KDQwLDQ4dDA0NCw0eDAwMDQ0LDAwNHgwgDQsNCwwMDR8MAAKcmAANBQAA
+ switch:
+   - platform: broadlink  
+     mac: a0:43:b0:18:a8:ad
+     switches: 
+      - name: York aircond-guest
+        command_on: JgCWAAABQgABRQABQwABRJlSDAwNHg4eDQsMHwwMDgsNCwwfDAwNDAsNCw0MDAwgCw0OCwsMDgoNHwwfDB8MDQ4JDQwNCw4eDQsMDA0LDA0NCw0LDQsNCw0MCyAN$
+        command_off: JgCWAAABQgABRQABQwABRJlSDAwNHg4eDQsMHwwMDgsNCwwfDAwNDAsNCw0MDAwgCw0OCwsMDgoNHwwfDB8MDQ4JDQwNCw4eDQsMDA0LDA0NCw0LDQsNCw0MCyA$
+
+

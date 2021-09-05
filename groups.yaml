@@ -1,0 +1,14 @@
+#media player
+media_player:
+  - platform: group
+    entities:
+      - media_player.guest_display
+      - media_player.hall_speaker
+      - media_player.spotify_dr_isaac_govind_andy
+      - media_player.playstation4
+      - media_player.osmc-kodi
+      - media_player.bose_soundtouch_hall
+  - platform: soundtouch
+    host: 192.168.88.104
+    port: 8090
+    name: Bose Soundtouch Hall

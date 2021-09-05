@@ -1,0 +1,994 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "NOVA Home",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sun.sun"
+                                },
+                                {
+                                    "entity": "sensor.iznd_ups_input_voltage"
+                                },
+                                {
+                                    "entity": "sensor.iznd_ups_alarms"
+                                },
+                                {
+                                    "entity": "binary_sensor.updater"
+                                },
+                                {
+                                    "entity": "sensor.iznd_ups_load"
+                                },
+                                {
+                                    "entity": "sensor.cpu_speed"
+                                },
+                                {
+                                    "entity": "binary_sensor.rpi_power_status"
+                                },
+                                {
+                                    "entity": "sensor.connected_clients"
+                                }
+                            ],
+                            "state_color": true,
+                            "title": "Home Stats",
+                            "theme": "day_and_night",
+                            "header": {
+                                "type": "graph",
+                                "entity": "sensor.iznd_ups_input_voltage",
+                                "hours_to_show": 24
+                            }
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.speedtest_download"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_upload"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_ping"
+                                }
+                            ],
+                            "title": "Internet Speedtest",
+                            "show_name": true,
+                            "state_color": false,
+                            "show_state": true,
+                            "show_icon": true
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.spotify_dr_isaac_govind_andy",
+                            "theme": "happy"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "media-control",
+                                    "entity": "media_player.hall_speaker",
+                                    "theme": "sad"
+                                },
+                                {
+                                    "type": "media-control",
+                                    "entity": "media_player.bedroom_display",
+                                    "theme": "day_and_night"
+                                },
+                                {
+                                    "type": "media-control",
+                                    "entity": "media_player.iznd_nova",
+                                    "theme": "day_and_night"
+                                },
+                                {
+                                    "type": "media-control",
+                                    "entity": "media_player.media_group",
+                                    "theme": "day_and_night"
+                                },
+                                {
+                                    "type": "media-control",
+                                    "entity": "media_player.bose_soundtouch_hall",
+                                    "theme": "day_and_night"
+                                },
+                                {
+                                    "type": "media-control",
+                                    "entity": "media_player.playstation_4",
+                                    "theme": "sad"
+                                }
+                            ],
+                            "square": false,
+                            "columns": 3
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.osmc_kodi",
+                            "theme": "sad"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "person.prof_dr_isaac_andy"
+                                },
+                                {
+                                    "entity": "device_tracker.vdt9959"
+                                }
+                            ],
+                            "title": "Person",
+                            "state_color": true,
+                            "theme": "day_and_night"
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.iznd_ups_battery_voltage"
+                                },
+                                {
+                                    "entity": "sensor.grid_fossil_fuel_percentage"
+                                },
+                                {
+                                    "entity": "sensor.huawei_igd_kib_s_received"
+                                },
+                                {
+                                    "entity": "sensor.huawei_igd_kib_s_sent"
+                                },
+                                {
+                                    "entity": "binary_sensor.rpi_power_status"
+                                },
+                                {
+                                    "entity": "sensor.cpu_speed"
+                                },
+                                {
+                                    "entity": "sensor.connected_clients"
+                                },
+                                {
+                                    "entity": "media_player.osmc_kodi"
+                                }
+                            ],
+                            "title": "Hall ",
+                            "state_color": true,
+                            "columns": 2,
+                            "theme": "day_and_night"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "title": "Hall",
+                            "entities": [
+                                {
+                                    "entity": "scene.skmcavvohmnguwc4"
+                                },
+                                {
+                                    "entity": "scene.ayp7hxmry0fskchp"
+                                },
+                                {
+                                    "entity": "switch.samsungtv"
+                                },
+                                {
+                                    "entity": "switch.ebfacc6af068eeaf8djujm"
+                                },
+                                {
+                                    "entity": "switch.884343309c9c1f83ca5a_3_2"
+                                },
+                                {
+                                    "entity": "switch.884343309c9c1f83ca5a_2_2"
+                                },
+                                {
+                                    "entity": "switch.884343309c9c1f83ca5a_1_2"
+                                },
+                                {
+                                    "entity": "switch.york_aircond"
+                                },
+                                {
+                                    "entity": "switch.bose_speaker"
+                                }
+                            ],
+                            "theme": "day_and_night",
+                            "camera_image": "camera.hall_cam",
+                            "image": "https://openapi.blurams.com/rest/service/camera/xxxxS_74ee2a6e31e4/thumbnail/current?size=640x480&token=f1cc5496a2a144debd8e1664e5ac825a",
+                            "tap_action": {
+                                "action": "more-info"
+                            },
+                            "camera_view": "live",
+                            "entity": "camera.hall_cam",
+                            "hold_action": {
+                                "action": "call-service",
+                                "service": "onvif.ptz",
+                                "service_data": {
+                                    "preset": "4"
+                                },
+                                "target": {
+                                    "device_id": "7fbb88551209e837c2726b414f114a1d"
+                                }
+                            }
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.seventeentrack_packages_delivered",
+                                    "name": "Delivered",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "sensor.seventeentrack_packages_undelivered",
+                                    "name": "Undelivered",
+                                    "secondary_info": "last-updated"
+                                },
+                                {
+                                    "entity": "sensor.seventeentrack_packages_not_found",
+                                    "name": "Not found",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "sensor.seventeentrack_packages_returned",
+                                    "name": "Returned",
+                                    "secondary_info": "last-changed"
+                                }
+                            ],
+                            "title": "Parcel Delivery Summary",
+                            "theme": "day_and_night",
+                            "state_color": true,
+                            "show_header_toggle": true
+                        },
+                        {
+                            "type": "picture-glance",
+                            "title": "Kitchen",
+                            "image": " ",
+                            "entities": [
+                                {
+                                    "entity": "switch.sonoff_10002595b4_1"
+                                },
+                                {
+                                    "entity": "switch.ebfacc6af068eeaf8djujm"
+                                },
+                                {
+                                    "entity": "switch.sonoff_100024d1ce"
+                                },
+                                {
+                                    "entity": "binary_sensor.ffmpeg_motion"
+                                },
+                                {
+                                    "entity": "switch.884343309c9c1f83ca5a_3_2"
+                                },
+                                {
+                                    "entity": "media_player.bedroom_display"
+                                }
+                            ],
+                            "tap_action": {
+                                "action": "call-service",
+                                "service": "onvif.ptz",
+                                "service_data": {
+                                    "preset": "3",
+                                    "pan": "LEFT"
+                                },
+                                "target": {
+                                    "entity_id": "camera.vstarcam_profile_000"
+                                }
+                            },
+                            "theme": "day_and_night",
+                            "hold_action": {
+                                "action": "more-info"
+                            },
+                            "camera_image": "camera.vstarcam_profile_000",
+                            "entity": "camera.vstarcam_profile_000"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "media_player.playstation_4"
+                                },
+                                {
+                                    "entity": "scene.zhtueo6gji9jx2w3"
+                                },
+                                {
+                                    "entity": "scene.3q4dprx9jadizjbv"
+                                },
+                                {
+                                    "entity": "switch.884343309c9c1f83ca55_2",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "switch.sonoff_100024d1c9",
+                                    "name": "Cozy Light",
+                                    "icon": "hass:lightbulb",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "switch.884343309c9c1f83ca55_1",
+                                    "icon": "hass:fan"
+                                }
+                            ],
+                            "title": "Bedroom",
+                            "state_color": true,
+                            "show_header_toggle": true,
+                            "theme": "day_and_night"
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.fuji_xerox_docuprint_cp116_119_w"
+                                },
+                                {
+                                    "entity": "sensor.fuji_xerox_docuprint_cp116_119_w_uptime"
+                                },
+                                {
+                                    "entity": "switch.ebac77d25e15dff015gdvh"
+                                },
+                                {
+                                    "entity": "switch.sonoff_10002595b4_1"
+                                },
+                                {
+                                    "entity": "switch.sonoff_10002595b4_2"
+                                },
+                                {
+                                    "entity": "media_player.hall_speaker"
+                                },
+                                {
+                                    "entity": "remote.guest_remote_remote"
+                                }
+                            ],
+                            "title": "Guest Room",
+                            "theme": "day_and_night",
+                            "state_color": true,
+                            "columns": 2
+                        },
+                        {
+                            "type": "map",
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.wfm3872"
+                                },
+                                {
+                                    "entity": "person.kristine_ng"
+                                },
+                                {
+                                    "entity": "person.prof_dr_isaac_andy"
+                                },
+                                {
+                                    "entity": "person.nga"
+                                },
+                                {
+                                    "entity": "device_tracker.vdt9959"
+                                }
+                            ],
+                            "dark_mode": true,
+                            "title": "Whereabouts"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "title": "demo",
+                            "image": "https://demo.home-assistant.io/stub_config/kitchen.png",
+                            "entities": [
+                                {
+                                    "entity": "camera.camera_proxy_camera_raspberry_pi_cam"
+                                },
+                                {
+                                    "entity": "media_player.bose_soundtouch_hall"
+                                }
+                            ],
+                            "camera_image": "camera.camera_proxy_camera_raspberry_pi_cam",
+                            "entity": "camera.camera_proxy_camera_raspberry_pi_cam"
+                        }
+                    ]
+                },
+                {
+                    "icon": "hass:network",
+                    "theme": "day_and_night",
+                    "title": "Management",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "shopping-list",
+                            "theme": "day_and_night",
+                            "title": "Shopping List"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "scene.skmcavvohmnguwc4"
+                                },
+                                {
+                                    "entity": "scene.ayp7hxmry0fskchp"
+                                },
+                                {
+                                    "entity": "scene.aaqqqtajhhgkmads"
+                                },
+                                {
+                                    "entity": "media_player.playstation_4"
+                                }
+                            ],
+                            "state_color": true,
+                            "title": "Home Scene Control",
+                            "theme": "day_and_night"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.fuji_xerox_docuprint_cp116_119_w"
+                                },
+                                {
+                                    "entity": "sensor.fuji_xerox_docuprint_cp116_119_w_black_toner_cartridge"
+                                },
+                                {
+                                    "entity": "sensor.fuji_xerox_docuprint_cp116_119_w_cyan_toner_cartridge"
+                                },
+                                {
+                                    "entity": "sensor.fuji_xerox_docuprint_cp116_119_w_magenta_toner_cartridge"
+                                },
+                                {
+                                    "entity": "sensor.fuji_xerox_docuprint_cp116_119_w_yellow_toner_cartridge"
+                                }
+                            ],
+                            "title": "Printer Status ",
+                            "state_color": true,
+                            "theme": "day_and_night"
+                        },
+                        {
+                            "type": "markdown",
+                            "title": "Parcels in transit",
+                            "content": "{% for package in states.sensor.seventeentrack_packages_in_transit.attributes.packages %}\n***{{ package.friendly_name }}:***  - {{ package.info_text }}\n{% endfor %}",
+                            "theme": "happy"
+                        },
+                        {
+                            "type": "picture-elements",
+                            "image": "/assets/arsaboo/floorplans/main.png",
+                            "elements": [
+                                {
+                                    "type": "image",
+                                    "entity": "input_boolean.abodeupdate",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/abode_enabled.png",
+                                        "off": "/assets/arsaboo/icons/abode_disabled.png"
+                                    },
+                                    "style": {
+                                        "top": "4%",
+                                        "left": "30%",
+                                        "width": "7%"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "input_boolean.tvtime",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/tv_enabled.png",
+                                        "off": "/assets/arsaboo/icons/tv_disabled.png"
+                                    },
+                                    "style": {
+                                        "top": "4%",
+                                        "left": "40%",
+                                        "width": "7%"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "switch.security_armed",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/security_armed_red.png",
+                                        "off": "/assets/arsaboo/icons/security_disarmed.png"
+                                    },
+                                    "style": {
+                                        "top": "4%",
+                                        "left": "50%",
+                                        "width": "7%"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "input_boolean.homeautomation",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/automation_enabled.png",
+                                        "off": "/assets/arsaboo/icons/automation_disabled.png"
+                                    },
+                                    "style": {
+                                        "top": "4%",
+                                        "left": "60%",
+                                        "width": "7%"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "light.kitchen_lights",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "image": "/assets/arsaboo/icons/light_bulb_off.png",
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/light_bulb_on.png"
+                                    },
+                                    "state_filter": {
+                                        "on": "brightness(130%) saturate(1.5) drop-shadow(0px 0px 10px gold)",
+                                        "off": "brightness(80%) saturate(0.8)"
+                                    },
+                                    "style": {
+                                        "top": "40%",
+                                        "left": "11%",
+                                        "width": "7%",
+                                        "padding": "10px"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "camera.porch",
+                                    "image": "/assets/arsaboo/icons/camera_porch_streaming.png",
+                                    "state_image": {
+                                        "recording": "/assets/arsaboo/icons/camera_porch_recording.png"
+                                    },
+                                    "style": {
+                                        "top": "90%",
+                                        "left": "3%",
+                                        "width": "7%",
+                                        "transform": "none"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "camera.patio",
+                                    "image": "/assets/arsaboo/icons/camera_patio_streaming.png",
+                                    "state_image": {
+                                        "recording": "/assets/arsaboo/icons/camera_patio_recording.png"
+                                    },
+                                    "style": {
+                                        "top": "12%",
+                                        "left": "3%",
+                                        "width": "7%",
+                                        "transform": "none"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "camera.backyard",
+                                    "image": "/assets/arsaboo/icons/camera_backyard_streaming.png",
+                                    "state_image": {
+                                        "recording": "/assets/arsaboo/icons/camera_backyard_recording.png"
+                                    },
+                                    "style": {
+                                        "top": "12%",
+                                        "left": "90%",
+                                        "width": "7%",
+                                        "transform": "none"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "camera.driveway",
+                                    "image": "/assets/arsaboo/icons/camera_driveway_streaming.png",
+                                    "state_image": {
+                                        "recording": "/assets/arsaboo/icons/camera_driveway_recording.png"
+                                    },
+                                    "style": {
+                                        "top": "81.5%",
+                                        "left": "90%",
+                                        "width": "7%",
+                                        "transform": "none"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "light.living_room_lights",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "hold_action": {
+                                        "action": "more-info"
+                                    },
+                                    "image": "/assets/arsaboo/icons/light_bulb_off.png",
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/light_bulb_on.png"
+                                    },
+                                    "state_filter": {
+                                        "on": "brightness(130%) saturate(1.5) drop-shadow(0px 0px 10px gold)",
+                                        "off": "brightness(80%) saturate(0.8)"
+                                    },
+                                    "style": {
+                                        "top": "34%",
+                                        "left": "50%",
+                                        "width": "7%",
+                                        "padding": "10px"
+                                    }
+                                },
+                                {
+                                    "type": "state-label",
+                                    "entity": "sensor.livingroom_temp_rounded",
+                                    "style": {
+                                        "top": "43%",
+                                        "left": "50%",
+                                        "background": "center / contain no-repeat url(\"/assets/arsaboo/icons/ecobee_blank.png\")",
+                                        "text-align": "center",
+                                        "font-size": "12px",
+                                        "color": "white",
+                                        "font-family": "Helvetica"
+                                    }
+                                },
+                                {
+                                    "type": "state-icon",
+                                    "entity": "binary_sensor.motion_sensor_158d00016daecc",
+                                    "style": {
+                                        "top": "27%",
+                                        "left": "50%"
+                                    }
+                                },
+                                {
+                                    "type": "state-icon",
+                                    "entity": "binary_sensor.back_door",
+                                    "style": {
+                                        "top": "17%",
+                                        "left": "15%"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "input_boolean.tv",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "image": "/assets/arsaboo/icons/tv_off2.png",
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/tv_on2.png"
+                                    },
+                                    "state_filter": {
+                                        "on": "drop-shadow(-5px 0 10px gold)",
+                                        "off": "brightness(80%) saturate(0.8)"
+                                    },
+                                    "style": {
+                                        "top": "29%",
+                                        "left": "68.3%",
+                                        "width": "2.5%",
+                                        "padding": "10px 0 10px 30px"
+                                    }
+                                },
+                                {
+                                    "type": "state-icon",
+                                    "entity": "binary_sensor.motion_sensor_158d0001a1f2ab",
+                                    "style": {
+                                        "top": "27%",
+                                        "left": "85%"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "switch.wemoporch",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "image": "/assets/arsaboo/icons/light_bulb_off.png",
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/light_bulb_on.png"
+                                    },
+                                    "state_filter": {
+                                        "on": "brightness(130%) saturate(1.5) drop-shadow(0px 0px 10px gold)",
+                                        "off": "brightness(80%) saturate(0.8)"
+                                    },
+                                    "style": {
+                                        "top": "92%",
+                                        "left": "20%",
+                                        "width": "7%",
+                                        "padding": "10px"
+                                    }
+                                },
+                                {
+                                    "type": "state-icon",
+                                    "entity": "binary_sensor.ring_front_door_motion",
+                                    "style": {
+                                        "top": "95%",
+                                        "left": "32%"
+                                    }
+                                },
+                                {
+                                    "type": "state-icon",
+                                    "entity": "binary_sensor.door_window_sensor_158d0001bf26df",
+                                    "style": {
+                                        "top": "64%",
+                                        "left": "56%"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "light.lifx5",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "image": "/assets/arsaboo/icons/light_bulb_off.png",
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/light_bulb_on.png"
+                                    },
+                                    "state_filter": {
+                                        "on": "brightness(130%) saturate(1.5) drop-shadow(0px 0px 10px gold)",
+                                        "off": "brightness(80%) saturate(0.8)"
+                                    },
+                                    "style": {
+                                        "top": "60%",
+                                        "left": "78%",
+                                        "width": "7%",
+                                        "padding": "10px"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "switch.driveway",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "image": "/assets/arsaboo/icons/light_off.png",
+                                    "state_image": {
+                                        "on": "/assets/arsaboo/icons/light_on.png"
+                                    },
+                                    "state_filter": {
+                                        "on": "drop-shadow(-5px -5px 10px gold)",
+                                        "off": "brightness(80%) saturate(0.8)"
+                                    },
+                                    "style": {
+                                        "top": "84%",
+                                        "left": "82%",
+                                        "width": "7%",
+                                        "padding": "10px"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "entity": "cover.garagedoor",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "image": "/assets/arsaboo/icons/garage_door_closed.png",
+                                    "state_image": {
+                                        "open": "/assets/arsaboo/icons/garage_door_open.png",
+                                        "closed": "/assets/arsaboo/icons/garage_door_closed.png"
+                                    },
+                                    "style": {
+                                        "top": "71%",
+                                        "left": "74%",
+                                        "width": "7%",
+                                        "transform": "none"
+                                    }
+                                },
+                                {
+                                    "type": "state-label",
+                                    "entity": "sensor.study_temp_rounded",
+                                    "style": {
+                                        "top": "80%",
+                                        "left": "49%",
+                                        "background-color": "gray",
+                                        "background": "center / contain no-repeat url(\"/assets/arsaboo/icons/ecobee_blank.png\")",
+                                        "text-align": "center",
+                                        "font-size": "12px",
+                                        "color": "white",
+                                        "font-family": "Helvetica",
+                                        "display": "block",
+                                        "overflow": "hidden"
+                                    }
+                                },
+                                {
+                                    "type": "state-icon",
+                                    "entity": "binary_sensor.front_door",
+                                    "style": {
+                                        "top": "89%",
+                                        "left": "32%"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.co2_intensity",
+                            "min": 0,
+                            "max": 100,
+                            "theme": "day_and_night",
+                            "needle": true,
+                            "severity": {
+                                "green": -1,
+                                "yellow": 40,
+                                "red": 80
+                            }
+                        }
+                    ]
+                },
+                {
+                    "panel": false,
+                    "icon": "",
+                    "title": "Nerdy Stats",
+                    "visible": [
+                        {
+                            "user": "7e13b506766545b1ad966452ab056526"
+                        },
+                        {
+                            "user": "11fb7d7d9bf94539ae2913f8d067bb80"
+                        }
+                    ],
+                    "badges": [
+                        {
+                            "entity": "device_tracker.vdt9959"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.cpu_speed"
+                                },
+                                {
+                                    "entity": "sensor.local_ip"
+                                },
+                                {
+                                    "entity": "binary_sensor.rpi_power_status",
+                                    "secondary_info": "last-updated"
+                                },
+                                {
+                                    "entity": "sensor.huawei_igd_kib_s_sent",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "sensor.huawei_igd_kib_s_received",
+                                    "secondary_info": "last-updated"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_download"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_ping"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_upload"
+                                },
+                                {
+                                    "entity": "sensor.connected_clients"
+                                }
+                            ],
+                            "title": "Nerdy Stats",
+                            "state_color": true,
+                            "theme": "day_and_night",
+                            "header": {
+                                "type": "graph",
+                                "entity": "sensor.speedtest_download",
+                                "detail": 2,
+                                "hours_to_show": 48
+                            },
+                            "footer": {
+                                "type": "graph",
+                                "entity": "sensor.iznd_ups_input_voltage",
+                                "hours_to_show": 24
+                            }
+                        },
+                        {
+                            "type": "iframe",
+                            "url": "https://minexmr.com/dashboard?address=41nQCM9dLAH5NYycB46pfcUc85UpHkXY11gRDeSfh3rJQ5bKGXjtTrxiwyZfKJehjKeoyBRKpYo6gWqF1Jrsp17dFbMq9B3",
+                            "title": "XMR Mining Stats",
+                            "aspect_ratio": "80%"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.transmission_active_torrents",
+                                "sensor.transmission_completed_torrents",
+                                "sensor.transmission_down_speed",
+                                "sensor.transmission_paused_torrents",
+                                "sensor.transmission_started_torrents",
+                                "sensor.transmission_status",
+                                "switch.transmission_switch",
+                                "sensor.transmission_total_torrents",
+                                "switch.transmission_turtle_mode",
+                                "sensor.transmission_up_speed"
+                            ],
+                            "title": "Torrent Downloads "
+                        }
+                    ]
+                },
+                {
+                    "theme": "day_and_night",
+                    "visible": [
+                        {
+                            "user": "a06bca10bd1f4afcbd92a10c70dd5af9"
+                        },
+                        {
+                            "user": "11fb7d7d9bf94539ae2913f8d067bb80"
+                        },
+                        {
+                            "user": "a2ad0a2408a74a67b0f8c70915bb919b"
+                        },
+                        {
+                            "user": "cc39049d5caf49e0aee04aedab33eba6"
+                        }
+                    ],
+                    "icon": "mdi:gauge",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "picture-entity",
+                            "entity": "camera.camera_proxy_camera_raspberry_pi_cam"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.iznd_ups_alarms",
+                                "sensor.iznd_ups_battery_chemistry",
+                                "sensor.iznd_ups_battery_date",
+                                "sensor.iznd_ups_battery_runtime",
+                                "sensor.iznd_ups_battery_voltage",
+                                "sensor.iznd_ups_beeper_status",
+                                "sensor.iznd_ups_high_voltage_transfer",
+                                "sensor.iznd_ups_input_power_sensitivity",
+                                "sensor.iznd_ups_input_voltage",
+                                "sensor.iznd_ups_load",
+                                "sensor.iznd_ups_load_reboot_timer",
+                                "sensor.iznd_ups_load_shutdown_timer",
+                                "sensor.iznd_ups_low_battery_runtime",
+                                "sensor.iznd_ups_low_battery_setpoint",
+                                "sensor.iznd_ups_low_voltage_transfer",
+                                "sensor.iznd_ups_nominal_battery_voltage",
+                                "sensor.iznd_ups_nominal_input_voltage",
+                                "sensor.iznd_ups_nominal_real_power",
+                                "sensor.iznd_ups_self_test_result",
+                                "sensor.iznd_ups_status",
+                                "sensor.iznd_ups_status_data",
+                                "sensor.iznd_ups_warning_battery_setpoint"
+                            ],
+                            "state_color": true,
+                            "header": {
+                                "type": "graph",
+                                "entity": "sensor.iznd_ups_load",
+                                "detail": 2,
+                                "hours_to_show": 12
+                            },
+                            "title": "iZND UPS Montorin",
+                            "theme": "day_and_night",
+                            "footer": {
+                                "type": "graph",
+                                "entity": "sensor.hd_temperature_dev_mmcblk0",
+                                "hours_to_show": 24,
+                                "detail": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "sidebar",
+                    "title": "Controls",
+                    "badges": [
+                        {
+                            "entity": "sensor.iznd_ups_load"
+                        },
+                        {
+                            "entity": "sensor.co2_intensity"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "scene.zhtueo6gji9jx2w3",
+                                "switch.samsungtv",
+                                "switch.bose_speaker",
+                                "switch.york_aircond"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

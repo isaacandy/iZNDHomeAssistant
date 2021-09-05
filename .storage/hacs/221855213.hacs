@@ -1,0 +1,60 @@
+{
+    "version": "6",
+    "key": "hacs/221855213.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@jcwillox"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": true,
+        "default_branch": "master",
+        "description": "\ud83d\uddc3\ufe0f Improved Backup Service for Hass.io that can Automatically Remove Snapshots and Supports Generational Backup Schemes.",
+        "domain": "auto_backup",
+        "domains": [],
+        "downloads": 1,
+        "etag_repository": "W/\"23bb8d3885c90eb23ebc163cb112f49b56233917e5c69d0d5338c74db12b707f\"",
+        "file_name": "",
+        "filename": "auto_backup.zip",
+        "first_install": false,
+        "fork": false,
+        "full_name": "jcwillox/hass-auto-backup",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": true,
+        "homeassistant": "2021.9.0b0",
+        "id": "221855213",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "6293d0f",
+        "installed_version": "0.8.0",
+        "open_issues": 6,
+        "last_commit": "0f9a458",
+        "last_version": "0.9.1",
+        "last_updated": "2021-08-26T03:28:10Z",
+        "manifest_name": "Auto Backup",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-08-26T03:28:10",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "0.9.1",
+            "0.8.0",
+            "0.7.3"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 97,
+        "topics": [
+            "auto-purge",
+            "generational-backups",
+            "hassio",
+            "homeassistant",
+            "snapshots"
+        ],
+        "zip_release": true
+    }
+}
