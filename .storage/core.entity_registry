@@ -2845,7 +2845,7 @@
                 "device_class": "battery",
                 "unit_of_measurement": "%",
                 "original_name": "Prof. Dr. Isaac\u2019s \uf8ff\u00a0Watch Series 6 battery state",
-                "original_icon": "mdi:battery-70"
+                "original_icon": "mdi:battery-40"
             },
             {
                 "entity_id": "sensor.prof_dr_isaac_iphone_12_pro_battery_state_2",
@@ -2862,7 +2862,7 @@
                 "device_class": "battery",
                 "unit_of_measurement": "%",
                 "original_name": "Prof Dr Isaac \uf8ff iPhone 12 Pro battery state",
-                "original_icon": "mdi:battery-50"
+                "original_icon": "mdi:battery"
             },
             {
                 "entity_id": "sensor.prof_dr_isaac_s_macbook_pro_battery_state",
@@ -2879,7 +2879,7 @@
                 "device_class": "battery",
                 "unit_of_measurement": "%",
                 "original_name": "Prof Dr Isaac's \uf8ff MacBook Pro battery state",
-                "original_icon": "mdi:battery-charging-100"
+                "original_icon": "mdi:battery-20"
             },
             {
                 "entity_id": "device_tracker.prof_dr_isaac_s_macbook_pro",
@@ -2947,7 +2947,7 @@
                 "device_class": "battery",
                 "unit_of_measurement": "%",
                 "original_name": "Bruno iPad battery state",
-                "original_icon": "mdi:battery-30"
+                "original_icon": "mdi:battery-10"
             },
             {
                 "entity_id": "sensor.seventeentrack_package_lxst029602717my",
@@ -3996,6 +3996,23 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Guest speaker",
+                "original_icon": null
+            },
+            {
+                "entity_id": "automation.push_ha_configuration_to_github_repo",
+                "config_entry_id": null,
+                "device_id": null,
+                "area_id": null,
+                "unique_id": "l1k3",
+                "platform": "automation",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "push HA configuration to GitHub repo",
                 "original_icon": null
             }
         ]

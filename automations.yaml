@@ -142,3 +142,16 @@
     event_data:
       entity_id: image_processing.door
       name: "Prof. Dr. Isaac Andy, PhD"
+
+#backup to GitHub
+- id: l1k3
+  alias: push HA configuration to GitHub repo
+  trigger:
+  # Everyday at 23:23:23 time
+  - at: '23:23:23'
+    platform: time
+  action:
+  - data:
+      addon: a0d7b954_ssh
+      input: /home/homeassistant/.homeassistant/ha_gitpush.sh
+    service: hassio.addon_stdin
