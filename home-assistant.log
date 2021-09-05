@@ -1298,3 +1298,72 @@ e.g. jpeg = TurboJPEG(lib_path)
 2021-09-06 00:06:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
 2021-09-06 00:06:46 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Error fetching ipp data: Invalid response from API: Timeout occurred while connecting to IPP server.
 2021-09-06 00:06:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:07:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:07:07 ERROR (SyncWorker_5) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:07:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:07:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:07:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:07:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:07:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:08:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:08:07 ERROR (SyncWorker_8) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:08:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:08:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:08:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:08:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:08:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:09:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:09:07 ERROR (SyncWorker_3) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:09:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:09:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:09:24 ERROR (MainThread) [homeassistant.components.nmap_tracker] Nmap scanning failed: 'nmap program was not found in path. PATH is : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+2021-09-06 00:09:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:09:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:09:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:10:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:10:07 ERROR (SyncWorker_6) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:10:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:10:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:10:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:10:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:10:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:11:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:11:07 ERROR (SyncWorker_1) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:11:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:11:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:11:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:11:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:11:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:12:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:12:07 ERROR (SyncWorker_0) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:12:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:12:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:12:27 ERROR (MainThread) [homeassistant.components.nmap_tracker] Nmap scanning failed: 'nmap program was not found in path. PATH is : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+2021-09-06 00:12:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:12:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:12:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:13:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:13:07 ERROR (SyncWorker_9) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:13:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:13:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:13:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:13:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:13:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:14:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:14:07 ERROR (SyncWorker_3) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:14:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:14:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:14:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:14:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:14:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:14:57 WARNING (MainThread) [homeassistant.components.ps4.media_player] PS4 could not be reached
+2021-09-06 00:15:02 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Error fetching ipp data: Invalid response from API: Timeout occurred while connecting to IPP server.
+2021-09-06 00:15:02 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:15:07 ERROR (MainThread) [homeassistant.components.broadlink.updater] Error fetching Guest Remote (RM4C mini at 192.168.88.130) data: [Errno -4000] Network timeout
+2021-09-06 00:15:07 ERROR (SyncWorker_3) [homeassistant.components.hddtemp.sensor] HDDTemp is not available at localhost:7634
+2021-09-06 00:15:12 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:15:22 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:15:30 ERROR (MainThread) [homeassistant.components.nmap_tracker] Nmap scanning failed: 'nmap program was not found in path. PATH is : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+2021-09-06 00:15:32 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:15:42 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
+2021-09-06 00:15:52 WARNING (MainThread) [homeassistant.components.media_player] Updating soundtouch media_player took longer than the scheduled update interval 0:00:10
